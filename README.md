@@ -1,10 +1,10 @@
-# CARD: failure-informed search-radius selection for rationed route discovery (ns-3)
+# CARD: cause-conditioned route repair in mobile ad hoc networks (ns-3)
 
 This repository holds the simulation code, campaign definitions, per-run summary records and analysis scripts for
 the manuscript
 
-> P. Deepanramkumar and A. Helen Sharmila, *Failure-informed search-radius selection for rationed route discovery in
-> mobile ad hoc networks*. Manuscript prepared for *Ad Hoc Networks* (Elsevier).
+> P. Deepanramkumar and A. Helen Sharmila, *Cause-conditioned route repair in mobile ad hoc networks: conveying
+> link-failure inference to the discovery decision*. Manuscript prepared for *Ad Hoc Networks* (Elsevier).
 
 Authors: School of Computer Science and Engineering, Vellore Institute of Technology, Vellore, Tamil Nadu, India.
 Corresponding author: A. Helen Sharmila (helensharmila.a@vit.ac.in).
@@ -91,6 +91,7 @@ python paper/scripts/make_rev_numbers.py
 python paper/scripts/make_rev_tables.py
 python paper/scripts/make_rev_figures.py
 python paper/scripts/interval_robustness.py
+python paper/scripts/regime_table.py
 ```
 
 - Tables and number macros are written to `paper/tables/`, figures to `paper/figures/`.
