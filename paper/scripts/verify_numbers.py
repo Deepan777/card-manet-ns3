@@ -31,9 +31,9 @@ FAMILIES = [("C1", "c1_outage", "Bottleneck"), ("C4", "c4_scaling", "Scaling"),
 ARMS = ["AODV-STOCK", "CLAF-AODV", "TAAODV", "RREP-RESET", "CARD", "CARD-NO-CAUSE",
         "CARD-EXEMPT-ALL", "CARD-NO-EXEMPT", "CARD-NO-REACH", "CARD-CLAF"]
 LABEL = {"AODV-STOCK": "Stock AODV", "CLAF-AODV": "CLAF-AODV", "TAAODV": "TAAODV",
-         "RREP-RESET": "Route-acquisition renewal", "CARD": "CARD", "CARD-NO-CAUSE": "Cause-blind reach",
-         "CARD-EXEMPT-ALL": "Every break exempt", "CARD-NO-EXEMPT": "Reach only",
-         "CARD-NO-REACH": "Exemption only", "CARD-CLAF": "CARD-CLAF"}
+         "RREP-RESET": "Fixed narrow start", "CARD": "CARD", "CARD-NO-CAUSE": "Fixed hop-count start",
+         "CARD-EXEMPT-ALL": "Exempt-all", "CARD-NO-EXEMPT": "Radius-only",
+         "CARD-NO-REACH": "Exemption-only", "CARD-CLAF": "CARD-CLAF"}
 MAIN = ["AODV-STOCK", "CLAF-AODV", "TAAODV", "RREP-RESET", "CARD", "CARD-CLAF"]
 RANGE_M, HORIZON_S = 141.0, 1.0
 B = chr(92)
@@ -182,8 +182,8 @@ def main():
         encoding="utf-8")
 
     cl = [B + "begin{tabular}{@{}lrrrrr@{}}", B + "toprule",
-          "Family & runs & breaks & recall (departures) & precision (departure verdicts) & "
-          "precision (transient verdicts) " + B + B, B + "midrule"]
+          "Family & runs & breaks & recall (departures) & precision (departure class) & "
+          "precision (transient class) " + B + B, B + "midrule"]
     for tag, prefix, name in (("C1", "c1_", "Bottleneck"), ("C4", "c4_", "Scaling"), ("S8", "c_", "Mobility")):
         c = classifier(prefix)
         J["classifier"][tag] = c

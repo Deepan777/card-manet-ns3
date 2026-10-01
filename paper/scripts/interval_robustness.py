@@ -30,10 +30,10 @@ from q1_common import conditions, load, load_card, paired  # noqa: E402
 from make_rev_numbers import FAM, PAIRS  # noqa: E402
 
 NB, SEED = 10000, 20260930
-LAB = {"AODV-STOCK": "stock AODV", "RREP-RESET": "route-acquisition renewal", "CARD": "CARD",
-       "CLAF-AODV": "CLAF-AODV", "TAAODV": "TAAODV", "CARD-NO-EXEMPT": "reach only",
-       "CARD-NO-REACH": "exemption only", "CARD-NO-CAUSE": "cause-blind reach",
-       "CARD-EXEMPT-ALL": "every break exempt", "CARD-CLAF": "CARD-CLAF"}
+LAB = {"AODV-STOCK": "stock AODV", "RREP-RESET": "fixed narrow start", "CARD": "CARD",
+       "CLAF-AODV": "CLAF-AODV", "TAAODV": "TAAODV", "CARD-NO-EXEMPT": "radius-only",
+       "CARD-NO-REACH": "exemption-only", "CARD-NO-CAUSE": "fixed hop-count start",
+       "CARD-EXEMPT-ALL": "exempt-all", "CARD-CLAF": "CARD-CLAF"}
 FAMNAME = {"C1": "Bottleneck", "C4": "Scaling", "S8": "Mobility"}
 
 

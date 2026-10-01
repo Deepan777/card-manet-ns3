@@ -1,7 +1,7 @@
 """Regime table: each policy's timely-PDR difference from the better of the two fixed initial-radius rules.
 
-The two fixed rules are route-acquisition renewal (every recovery starts from the smallest ring) and cause-blind reach
-(every recovery starts from the last hop count), which share CARD's rationing and renewal event. In each family the
+The two fixed rules are the fixed narrow start (every recovery starts from the smallest ring) and the fixed hop-count
+start (every recovery starts from the last hop count), which share CARD's rationing and renewal event. In each family the
 better rule is the one with the higher family estimate; the paired interval of their difference excludes zero in every
 family. Every entry is an existing paired family estimate with its post hoc stratified-bootstrap interval:
   narrow rule minus wide rule   from scripts/out/sci_numbers.json (blind_minus_rr_<family>, sign reversed)
@@ -61,9 +61,9 @@ lines = [
     r"Policy (initial radius) & Bottleneck & Scaling & Mobility & Worst case \\",
     r"\midrule",
 ]
-label = {"narrow": "Fixed narrow start (route-acquisition renewal)",
-         "wide": "Fixed hop-count start (cause-blind reach)",
-         "card": "Cause-conditioned start (CARD)"}
+label = {"narrow": "Fixed narrow start",
+         "wide": "Fixed hop-count start",
+         "card": "CARD (cause-conditioned start)"}
 for k in ["narrow", "wide", "card"]:
     cells = ["better rule" if v is None else cell(v) for v in rows[k]]
     w = worst[k]

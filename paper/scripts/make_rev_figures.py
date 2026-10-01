@@ -33,7 +33,7 @@ TAB = ROOT / "paper" / "tables"
 FAMILY = [("C1", "c1_outage", "Bottleneck", "B"), ("C4", "c4_scaling", "Scaling", "S"),
           ("S8", "stage8_campaign", "Mobility", "M")]
 # Okabe-Ito colours plus distinct marker shapes and fills, legible in greyscale.
-SERIES = [("RREP-RESET", "Route-acquisition renewal", "#E69F00", "s", "none"),
+SERIES = [("RREP-RESET", "Fixed narrow start", "#E69F00", "s", "none"),
           ("TAAODV", "TAAODV", "#999999", "v", "full"),
           ("CLAF-AODV", "CLAF-AODV", "#009E73", "^", "full"),
           ("CARD", "CARD", "#0072B2", "o", "full"),

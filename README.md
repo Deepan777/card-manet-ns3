@@ -92,9 +92,14 @@ python paper/scripts/make_rev_tables.py
 python paper/scripts/make_rev_figures.py
 python paper/scripts/interval_robustness.py
 python paper/scripts/regime_table.py
+python paper/scripts/relabel_tables.py
+python paper/scripts/make_mechanism_figure.py
 ```
 
 - Tables and number macros are written to `paper/tables/`, figures to `paper/figures/`.
+- `relabel_tables.py` gives the renewal-study tables written by `analysis/make_q1_tables.py` the manuscript's policy
+  names (acquisition, confirmation and clock renewal; fixed narrow start). It changes labels only.
+  `make_mechanism_figure.py` draws Fig. 4 with the same names.
 - With the shipped summaries, every table used in the manuscript regenerates identically except the break-classifier
   results. Values agree to the printed precision; the last binary digit of some intermediate floats can differ.
 - The classifier results need the per-break logs: `tab_card_classifier_rev.tex` and 16 macros in `card_numbers.tex`
