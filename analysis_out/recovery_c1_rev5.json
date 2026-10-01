@@ -1,0 +1,235 @@
+{
+ "parameters": {
+  "deadline_ms": 250,
+  "gap_multiple": 4.0,
+  "cap_s": 30,
+  "K": 2,
+  "M": 10
+ },
+ "table": {
+  "ALL": {
+   "AODV-STOCK": {
+    "runs": 60,
+    "episodes_per_run": 126.8,
+    "censored_fraction": 0.016,
+    "median_true_ms_observed": 1012
+   },
+   "PERSISTENT-BACKOFF": {
+    "runs": 60,
+    "episodes_per_run": 24.1,
+    "censored_fraction": 0.408,
+    "median_true_ms_observed": 3211
+   },
+   "RREP-RESET": {
+    "runs": 60,
+    "episodes_per_run": 134.2,
+    "censored_fraction": 0.02,
+    "median_true_ms_observed": 1023
+   },
+   "SCR": {
+    "runs": 60,
+    "episodes_per_run": 35.7,
+    "censored_fraction": 0.153,
+    "median_true_ms_observed": 3348
+   },
+   "TIME-BUCKET": {
+    "runs": 60,
+    "episodes_per_run": 92.8,
+    "censored_fraction": 0.038,
+    "median_true_ms_observed": 1165
+   }
+  },
+  "cold/stagger=0": {
+   "AODV-STOCK": {
+    "runs": 10,
+    "episodes_per_run": 103.4,
+    "censored_fraction": 0.012,
+    "median_true_ms_observed": 1177
+   },
+   "PERSISTENT-BACKOFF": {
+    "runs": 10,
+    "episodes_per_run": 19.7,
+    "censored_fraction": 0.457,
+    "median_true_ms_observed": 5500
+   },
+   "RREP-RESET": {
+    "runs": 10,
+    "episodes_per_run": 98.5,
+    "censored_fraction": 0.021,
+    "median_true_ms_observed": 1132
+   },
+   "SCR": {
+    "runs": 10,
+    "episodes_per_run": 33.6,
+    "censored_fraction": 0.173,
+    "median_true_ms_observed": 4422
+   },
+   "TIME-BUCKET": {
+    "runs": 10,
+    "episodes_per_run": 72.5,
+    "censored_fraction": 0.034,
+    "median_true_ms_observed": 1242
+   }
+  },
+  "cold/stagger=1": {
+   "AODV-STOCK": {
+    "runs": 10,
+    "episodes_per_run": 112.3,
+    "censored_fraction": 0.01,
+    "median_true_ms_observed": 1113
+   },
+   "PERSISTENT-BACKOFF": {
+    "runs": 10,
+    "episodes_per_run": 20.7,
+    "censored_fraction": 0.459,
+    "median_true_ms_observed": 5696
+   },
+   "RREP-RESET": {
+    "runs": 10,
+    "episodes_per_run": 105.4,
+    "censored_fraction": 0.017,
+    "median_true_ms_observed": 981
+   },
+   "SCR": {
+    "runs": 10,
+    "episodes_per_run": 32.1,
+    "censored_fraction": 0.137,
+    "median_true_ms_observed": 5059
+   },
+   "TIME-BUCKET": {
+    "runs": 10,
+    "episodes_per_run": 76.9,
+    "censored_fraction": 0.039,
+    "median_true_ms_observed": 1221
+   }
+  },
+  "healthy/stagger=0": {
+   "AODV-STOCK": {
+    "runs": 10,
+    "episodes_per_run": 133.9,
+    "censored_fraction": 0.012,
+    "median_true_ms_observed": 958
+   },
+   "PERSISTENT-BACKOFF": {
+    "runs": 10,
+    "episodes_per_run": 26.4,
+    "censored_fraction": 0.39,
+    "median_true_ms_observed": 2602
+   },
+   "RREP-RESET": {
+    "runs": 10,
+    "episodes_per_run": 138.6,
+    "censored_fraction": 0.01,
+    "median_true_ms_observed": 959
+   },
+   "SCR": {
+    "runs": 10,
+    "episodes_per_run": 38.4,
+    "censored_fraction": 0.141,
+    "median_true_ms_observed": 2985
+   },
+   "TIME-BUCKET": {
+    "runs": 10,
+    "episodes_per_run": 108.9,
+    "censored_fraction": 0.031,
+    "median_true_ms_observed": 1069
+   }
+  },
+  "long/stagger=0": {
+   "AODV-STOCK": {
+    "runs": 10,
+    "episodes_per_run": 112.4,
+    "censored_fraction": 0.048,
+    "median_true_ms_observed": 894
+   },
+   "PERSISTENT-BACKOFF": {
+    "runs": 10,
+    "episodes_per_run": 24.5,
+    "censored_fraction": 0.371,
+    "median_true_ms_observed": 2266
+   },
+   "RREP-RESET": {
+    "runs": 10,
+    "episodes_per_run": 138.7,
+    "censored_fraction": 0.055,
+    "median_true_ms_observed": 946
+   },
+   "SCR": {
+    "runs": 10,
+    "episodes_per_run": 34.5,
+    "censored_fraction": 0.157,
+    "median_true_ms_observed": 2365
+   },
+   "TIME-BUCKET": {
+    "runs": 10,
+    "episodes_per_run": 90.3,
+    "censored_fraction": 0.065,
+    "median_true_ms_observed": 1040
+   }
+  },
+  "repeated/stagger=0": {
+   "AODV-STOCK": {
+    "runs": 10,
+    "episodes_per_run": 153.6,
+    "censored_fraction": 0.007,
+    "median_true_ms_observed": 954
+   },
+   "PERSISTENT-BACKOFF": {
+    "runs": 10,
+    "episodes_per_run": 26.4,
+    "censored_fraction": 0.394,
+    "median_true_ms_observed": 2589
+   },
+   "RREP-RESET": {
+    "runs": 10,
+    "episodes_per_run": 166.7,
+    "censored_fraction": 0.01,
+    "median_true_ms_observed": 1152
+   },
+   "SCR": {
+    "runs": 10,
+    "episodes_per_run": 38.2,
+    "censored_fraction": 0.154,
+    "median_true_ms_observed": 2846
+   },
+   "TIME-BUCKET": {
+    "runs": 10,
+    "episodes_per_run": 105.5,
+    "censored_fraction": 0.033,
+    "median_true_ms_observed": 1205
+   }
+  },
+  "single/stagger=0": {
+   "AODV-STOCK": {
+    "runs": 10,
+    "episodes_per_run": 145.3,
+    "censored_fraction": 0.01,
+    "median_true_ms_observed": 992
+   },
+   "PERSISTENT-BACKOFF": {
+    "runs": 10,
+    "episodes_per_run": 26.8,
+    "censored_fraction": 0.396,
+    "median_true_ms_observed": 2589
+   },
+   "RREP-RESET": {
+    "runs": 10,
+    "episodes_per_run": 157.6,
+    "censored_fraction": 0.011,
+    "median_true_ms_observed": 975
+   },
+   "SCR": {
+    "runs": 10,
+    "episodes_per_run": 37.6,
+    "censored_fraction": 0.16,
+    "median_true_ms_observed": 2651
+   },
+   "TIME-BUCKET": {
+    "runs": 10,
+    "episodes_per_run": 102.6,
+    "censored_fraction": 0.029,
+    "median_true_ms_observed": 1210
+   }
+  }
+ }
+}

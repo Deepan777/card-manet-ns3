@@ -1,0 +1,45 @@
+{
+ "bottleneck": {
+  "runs": 300,
+  "breaks": 4594857,
+  "trans_inrange": 4594857,
+  "unknown_share": 0.0,
+  "precision_topology": null,
+  "recall_topology": null,
+  "precision_transient": 1.0,
+  "accuracy_classified": 1.0,
+  "departure_share": 0.0
+ },
+ "scaling": {
+  "runs": 600,
+  "breaks": 9240457,
+  "trans_departed": 53520,
+  "topo_departed": 2167314,
+  "trans_inrange": 6068518,
+  "topo_inrange": 951077,
+  "unknown_departed": 8,
+  "unknown_inrange": 20,
+  "unknown_share": 3.030153162338183e-06,
+  "precision_topology": 0.6950103434752088,
+  "recall_topology": 0.9759009453205417,
+  "precision_transient": 0.9912578131661385,
+  "accuracy_classified": 0.8912824285539124,
+  "departure_share": 0.24033897890548053
+ },
+ "mobility": {
+  "runs": 1200,
+  "breaks": 11425855,
+  "trans_departed": 141673,
+  "topo_departed": 3635809,
+  "trans_inrange": 6653289,
+  "topo_inrange": 995055,
+  "unknown_inrange": 9,
+  "unknown_departed": 20,
+  "unknown_share": 2.538103275422277e-06,
+  "precision_topology": 0.7851254107224915,
+  "recall_topology": 0.9624953871388401,
+  "precision_transient": 0.9791502881105149,
+  "accuracy_classified": 0.9005124005914321,
+  "departure_share": 0.33061000686600694
+ }
+}

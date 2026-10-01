@@ -1,0 +1,25 @@
+{
+  "run_id": "c_AODVSTOCK_s230_d146b9ce",
+  "campaign": "stage8_campaign",
+  "argv": [
+    "D:/VIT Vellore Research one/Astra Adhocnetworks/vendor/ns-3-dev-ns-3.46.1/build/scratch/scr-manet/ns3.46.1-scr-manet-default.exe",
+    "--algorithm=AODV-STOCK",
+    "--rngRun=230",
+    "--rngSeed=20260905",
+    "--speed=5.0",
+    "--ratePps=20.0",
+    "--numFlows=16",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out"
+  ],
+  "returncode": 0,
+  "elapsed_s": 899.141,
+  "completed_utc": "2026-09-22T14:01:41.154973+00:00",
+  "outputs": {
+    "out_packet_events.csv": "5ee2e2327e2fb496af33b29d612a67480b650f4156d18e7ec457c326d6efb844",
+    "out_summary.csv": "21e64ab193fba94c95ed7b0509bfff24a5ac0bd5715f3095384d30d957b5ff75",
+    "stderr.txt": "5d6b8484e44d0704035db0c204dc252e9ea5ae35921d273f7f3bc281feaf5cfb",
+    "stdout.txt": "065dfc13f038969485ec0c803629e3509d7aa37303b8c4a852574a62afc7070f"
+  }
+}

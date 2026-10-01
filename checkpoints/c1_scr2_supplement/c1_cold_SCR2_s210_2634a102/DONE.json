@@ -1,0 +1,22 @@
+{
+  "run_id": "c1_cold_SCR2_s210_2634a102",
+  "campaign": "c1_scr2_supplement",
+  "argv": [
+    "D:/VIT Vellore Research one/Astra Adhocnetworks/vendor/ns-3-dev-ns-3.46.1/build/scratch/scr-c1-outage/ns3.46.1-scr-c1-outage-default.exe",
+    "--algorithm=SCR2",
+    "--fault=cold",
+    "--coldStagger=0",
+    "--rngRun=210",
+    "--rngSeed=20260905",
+    "--outPrefix=out"
+  ],
+  "returncode": 0,
+  "elapsed_s": 791.067,
+  "completed_utc": "2026-09-23T12:22:12.896652+00:00",
+  "outputs": {
+    "out_packet_events.csv": "409b8ca1546986a249e1efb58afbc5cd7ca63a2221b166adcc3e4b23cb5af602",
+    "out_summary.csv": "46afbc420af1fddc5017cf549ff9ba700a8b736a5a55008350236e5980ddd3a5",
+    "stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stdout.txt": "9e2840008c83c12b610b09f29554c3d68a7d3d9286e0e47f0e17832d1a852eb1"
+  }
+}

@@ -1,0 +1,4 @@
+{
+  "c1_repeated_DSDV_s203_cbf56942": "R033: aborts in vendored ns-3 (NS_ASSERT interface >= 0, ipv4-l3-protocol.cc:953) when DSDV forwards over an interface the C1 outage model has taken down. Deterministic; not patched, per D006. DSDV runs at n=9 in this condition and the paper reports it.",
+  "c1_single_DSDV_s207_84a7f371":   "R033: same vendored ns-3 abort. Deterministic. DSDV runs at n=9 in this condition and the paper reports it."
+}

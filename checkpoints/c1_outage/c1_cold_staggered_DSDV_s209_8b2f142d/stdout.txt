@@ -1,0 +1,1 @@
+algorithm=DSDV fault=cold generated=28800 received=2399 timely_pdr=0.0167361 accepted=65 confirms=0 source_rreq=0 relayed=0 uncharged=0 ctrl_bytes=0

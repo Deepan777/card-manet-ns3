@@ -1,0 +1,134 @@
+{
+ "H2_large_scaling": {
+  "est": 0.022532856402134125,
+  "lo": 0.007408076069754555,
+  "hi": 0.037633020790968,
+  "scenarios": 6,
+  "positive_scenario_means": 5,
+  "conditions": [
+   [
+    "90",
+    "700",
+    "8",
+    "512"
+   ],
+   [
+    "90",
+    "857.321",
+    "8",
+    "512"
+   ],
+   [
+    "90",
+    "857.321",
+    "12",
+    "512"
+   ],
+   [
+    "120",
+    "700",
+    "8",
+    "512"
+   ],
+   [
+    "120",
+    "989.949",
+    "8",
+    "512"
+   ],
+   [
+    "120",
+    "989.949",
+    "16",
+    "512"
+   ]
+  ]
+ },
+ "blind_minus_rr_C1": {
+  "est": -0.1846253216869146,
+  "lo": -0.20197470969822182,
+  "hi": -0.16779535964881492,
+  "scenarios": 6,
+  "positive_scenario_means": 0
+ },
+ "pooled_pdr_C1": {
+  "AODV-STOCK": {
+   "mean_of_run_ratios": 0.43112834084258145,
+   "ratio_of_totals": 0.4295704998957102,
+   "runs": 60
+  },
+  "RREP-RESET": {
+   "mean_of_run_ratios": 0.5785044213971924,
+   "ratio_of_totals": 0.581428596259473,
+   "runs": 60
+  },
+  "CARD": {
+   "mean_of_run_ratios": 0.5785044213971924,
+   "ratio_of_totals": 0.581428596259473,
+   "runs": 60
+  },
+  "CLAF-AODV": {
+   "mean_of_run_ratios": 0.5497762334766487,
+   "ratio_of_totals": 0.5522587429604394,
+   "runs": 60
+  }
+ },
+ "blind_minus_rr_C4": {
+  "est": 0.054852209406839686,
+  "lo": 0.04536929150525028,
+  "hi": 0.0640786766522414,
+  "scenarios": 12,
+  "positive_scenario_means": 12
+ },
+ "pooled_pdr_C4": {
+  "AODV-STOCK": {
+   "mean_of_run_ratios": 0.48297607171073814,
+   "ratio_of_totals": 0.4693781790165291,
+   "runs": 120
+  },
+  "RREP-RESET": {
+   "mean_of_run_ratios": 0.4376992559176011,
+   "ratio_of_totals": 0.4217910213515769,
+   "runs": 120
+  },
+  "CARD": {
+   "mean_of_run_ratios": 0.47809677198819656,
+   "ratio_of_totals": 0.46407559728058095,
+   "runs": 120
+  },
+  "CLAF-AODV": {
+   "mean_of_run_ratios": 0.5064596226654399,
+   "ratio_of_totals": 0.49104061293935525,
+   "runs": 120
+  }
+ },
+ "blind_minus_rr_S8": {
+  "est": 0.04139961629907132,
+  "lo": 0.03189413188119059,
+  "hi": 0.05109521158584084,
+  "scenarios": 8,
+  "positive_scenario_means": 8
+ },
+ "pooled_pdr_S8": {
+  "AODV-STOCK": {
+   "mean_of_run_ratios": 0.5143392857859149,
+   "ratio_of_totals": 0.4805551615660175,
+   "runs": 240
+  },
+  "RREP-RESET": {
+   "mean_of_run_ratios": 0.47023962135353703,
+   "ratio_of_totals": 0.43776835233575184,
+   "runs": 240
+  },
+  "CARD": {
+   "mean_of_run_ratios": 0.5126088008559299,
+   "ratio_of_totals": 0.4731027585329042,
+   "runs": 240
+  },
+  "CLAF-AODV": {
+   "mean_of_run_ratios": 0.5273740655720345,
+   "ratio_of_totals": 0.48538768570545343,
+   "runs": 240
+  }
+ }
+}

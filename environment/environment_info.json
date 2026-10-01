@@ -1,0 +1,189 @@
+{
+  "schema_version": 1,
+  "recorded_utc": "2026-09-07T12:55:00Z",
+  "recorded_local": "2026-09-07T18:25:00+05:30",
+  "project_root": "D:\\VIT Vellore Research one\\Astra Adhocnetworks",
+  "status": "stage1_build_and_routing_tests_passed",
+  "ns3": {
+    "pinned_release": "ns-3.46.1",
+    "version_file_contents": "3.46.1",
+    "upstream_project": "https://gitlab.com/nsnam/ns-3-dev",
+    "tag": "ns-3.46.1",
+    "resolved_commit_sha": "51387bce7e5f5c57aa080612a4ed690bf33d0c92",
+    "resolved_commit_short": "51387bce",
+    "commit_committed_date": "2025-10-16T15:12:37-07:00",
+    "commit_title": "Update availability in RELEASE_NOTES.md",
+    "commit_resolution_method": "GitLab API v4 tags endpoint, queried 2026-09-07",
+    "archive_url": "https://gitlab.com/nsnam/ns-3-dev/-/archive/ns-3.46.1/ns-3-dev-ns-3.46.1.tar.bz2",
+    "archive_local_path": "vendor/downloads/ns-3-dev-ns-3.46.1.tar.bz2",
+    "archive_bytes": 42411340,
+    "archive_sha256": "52A3D4B533779781234B758D6C608D0C6689E4C56266F6A7F3FB02AF887B03CF",
+    "extracted_path": "vendor/ns-3-dev-ns-3.46.1",
+    "git_metadata_present": false,
+    "git_metadata_note": "Tarball export contains no .git directory; commit identity comes from the upstream tag API, not from a local repository.",
+    "nsnam_org_note": "https://www.nsnam.org/releases/... returned HTTP 403 to a HEAD probe; the upstream GitLab archive for the same tag was used."
+  },
+  "host": {
+    "os": "Windows 11 Home Single Language 10.0.26200",
+    "cpu": "AMD Ryzen 7 6800H with Radeon Graphics",
+    "cpu_cores": 8,
+    "cpu_logical_processors": 16,
+    "total_visible_memory_kib": 15978008,
+    "total_visible_memory_gib_approx": 15.24,
+    "gpu_note": "RTX 3060 present but unused; SCR is not a learning method.",
+    "spec_stated_ram_gib": 12,
+    "spec_ram_discrepancy_note": "Specification states 12 GB system RAM; measured total visible memory is ~15.2 GiB. Recorded as observed, not corrected to match the document.",
+    "project_volume": "D:",
+    "project_volume_free_gib_at_record": 47.7,
+    "c_volume_note": "C: reached 0 bytes free during setup; recovered to ~10 GB by deleting regenerable caches at explicit user instruction."
+  },
+  "toolchain": {
+    "platform": "native Windows, MSYS2/MinGW64 (NOT WSL2/Ubuntu 24.04 - see DESIGN_DEVIATIONS D001)",
+    "msys2_root": "C:\\msys64",
+    "cxx_compiler": "g++.exe (Rev7, Built by MSYS2 project) 16.1.0",
+    "cxx_compiler_id_by_cmake": "GNU 16.1.0",
+    "cxx_standard_used": "c++23",
+    "cmake": "4.4.2",
+    "ninja": "1.13.2",
+    "mingw64_python": "3.14.6",
+    "python_found_by_cmake": "C:/Users/deepa/AppData/Local/Programs/Python/Python311/python.exe (3.11.5)",
+    "git": "2.55.0 (C:/msys64/usr/bin/git.exe)",
+    "secondary_msys2_present": "D:\\msys64 (g++ 16.1.0 Rev5) - not used",
+    "toolchain_ownership": "Pre-existing operating-system software. Not installed, modified or upgraded by this project."
+  },
+  "build": {
+    "profile": "default",
+    "assertions": "ON",
+    "logging": "ON",
+    "examples": "ON",
+    "tests": "ON",
+    "build_defines_observed": [
+      "NS3_ASSERT_ENABLE",
+      "NS3_LOG_ENABLE",
+      "NS3_BUILD_PROFILE_DEBUG",
+      "HAVE_GSL",
+      "HAVE_SQLITE3"
+    ],
+    "compiler_flags_observed": "-Os -g -DNDEBUG -std=c++23 -fno-semantic-interposition -Wall -Wpedantic",
+    "enabled_modules_requested": [
+      "aodv",
+      "olsr",
+      "dsdv",
+      "wifi",
+      "applications",
+      "internet",
+      "mobility",
+      "propagation",
+      "flow-monitor",
+      "stats",
+      "point-to-point",
+      "csma"
+    ],
+    "modules_actually_built": [
+      "antenna",
+      "aodv",
+      "applications",
+      "bridge",
+      "buildings",
+      "core",
+      "csma",
+      "dsdv",
+      "energy",
+      "flow-monitor",
+      "internet",
+      "internet-apps",
+      "mesh",
+      "mobility",
+      "network",
+      "olsr",
+      "point-to-point",
+      "propagation",
+      "spectrum",
+      "stats",
+      "test",
+      "traffic-control",
+      "wifi"
+    ],
+    "modules_excluded_deliberately": {
+      "lte": "Excluded. The unrelated ICTC project recorded a Ninja 'Access is denied' failure on lte-mac-sap.cc.obj.d with this toolchain. LTE is not required by this study.",
+      "mpi": "Reported by ns-3 as cannot-be-built; not requested."
+    },
+    "features_off": {
+      "tap_and_emu": "Platform doesn't support TAP and EMU features (reported by ns-3 configure). Not used by this study.",
+      "python_bindings": "not requested",
+      "boost": "not found; only affects an optional feature of length.cc",
+      "eigen3": "not found",
+      "libxml2": "not found"
+    },
+    "jobs": 2,
+    "jobs_rationale": "Specification registers 'build -j2 initially'. Followed as written despite 16 logical processors.",
+    "attempt_1": {
+      "configure_log": "logs/build/configure_20260907_173705.log",
+      "configure_exit": 0,
+      "build_log": "logs/build/build_20260907_173755.log",
+      "build_exit": 1,
+      "wall_time": "21m56.208s",
+      "targets_completed": "733 of 1203",
+      "failure": "src/aodv/examples/aodv-example.cc:17:10: fatal error: ns3/point-to-point-module.h: No such file or directory",
+      "failure_cause": "Implementation-engineer error in module selection: the bundled ns-3 AODV example requires point-to-point, which was not enabled while --enable-examples was ON. Not a compiler or platform defect.",
+      "note": "All core libraries linked successfully before this failure, including libns3.46.1-aodv-default.dll, wifi, internet and internet-apps."
+    },
+    "attempt_2": {
+      "configure_log": "logs/build/configure2_20260907_180045.log",
+      "configure_exit": 0,
+      "build_log": "logs/build/build2_20260907_180045.log",
+      "build_exit": 0,
+      "wall_time": "22m53.075s",
+      "targets_completed": "631 of 631",
+      "change_from_attempt_1": "Added point-to-point and csma to enabled modules.",
+      "shared_libraries_built": 22
+    },
+    "clean_build_time_estimate": "~35-45 min at -j2 on this host; derived from the two attempts, not from a single clean build. To be measured properly before campaign runtime estimation."
+  },
+  "validation": {
+    "smoke_run": {
+      "command": "./ns3 run \"aodv-example --size=4 --time=20\"",
+      "exit": 0,
+      "observed": "4 nodes 50 m apart; first ICMP echo 267.46 ms (route discovery), subsequent ~2.5 ms; 7 of 20 received, 65% loss over 20 s.",
+      "interpretation": "Real multi-hop AODV route discovery over Wi-Fi. Confirms the built simulator executes actual protocol behaviour."
+    },
+    "routing_test_suites": {
+      "runner": "build/utils/ns3.46.1-test-runner-default.exe",
+      "log": "logs/build/test_aodv_direct_20260907_182502.log",
+      "results": {
+        "routing-aodv": "PASS",
+        "routing-aodv-regression": "PASS",
+        "routing-aodv-loopback": "PASS",
+        "aodv-routing-id-cache": "PASS",
+        "routing-olsr": "PASS",
+        "routing-dsdv": "PASS"
+      }
+    },
+    "full_suite": {
+      "total_suites_discovered": 249,
+      "status": "RUNNING at time of record; result not yet known",
+      "note": "Do not treat this field as a pass until the run completes and the count is recorded."
+    }
+  },
+  "known_issues": [
+    {
+      "id": "E001",
+      "summary": "test.py fails: 'The syntax of the command is incorrect. ns3 died. Not running tests'",
+      "suspected_cause": "Project path contains spaces ('VIT Vellore Research one', 'Astra Adhocnetworks'). test.py re-invokes ./ns3 through a shell in a way that does not survive spaces on Windows. CMake, Ninja and './ns3 run' quote correctly and are unaffected.",
+      "corroboration": "The unrelated ICTC project's dependency_plan.md independently advises: 'Prefer a short, space-free toolchain/build path on D:', and that project used D:\\ictc-toolchain.",
+      "workaround_in_use": "Invoke build/utils/ns3.46.1-test-runner-default.exe directly with --suite=. Verified working.",
+      "constraint": "The execution directive requires all project files to remain inside ASTRA_PROJECT_ROOT, whose path contains spaces. Relocating is therefore not permitted; the direct-runner workaround is the correct resolution.",
+      "status": "WORKAROUND VERIFIED; root cause not yet confirmed by isolation test"
+    },
+    {
+      "id": "E002",
+      "summary": "'./ns3 test' subcommand does not exist in ns-3.46.1",
+      "detail": "Valid subcommands are: help, build, configure, clean, distclean, install, uninstall, run, shell, docs, show.",
+      "status": "RESOLVED - use test.py or the test-runner binary"
+    }
+  ],
+  "measurement_gaps": [
+    "Peak RSS not yet measured. /usr/bin/time -v is unavailable on this platform; Windows peak working set will be used and must be labelled as such rather than reported as Linux maximum RSS (DESIGN_DEVIATIONS D001).",
+    "No SCR code exists yet. No simulation result of scientific interest has been produced."
+  ]
+}

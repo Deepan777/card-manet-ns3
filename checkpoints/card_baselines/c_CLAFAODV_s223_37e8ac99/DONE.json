@@ -1,0 +1,25 @@
+{
+  "run_id": "c_CLAFAODV_s223_37e8ac99",
+  "campaign": "card_baselines",
+  "argv": [
+    "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-baselines\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe",
+    "--algorithm=CLAF-AODV",
+    "--rngRun=223",
+    "--rngSeed=20260905",
+    "--speed=1.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out"
+  ],
+  "returncode": 0,
+  "elapsed_s": 678.385,
+  "completed_utc": "2026-09-27T19:07:50.779440+00:00",
+  "outputs": {
+    "out_packet_events.csv": "3789148d7a81256865efceab234b844ccdd44249c9dfca590d38d8f034d68435",
+    "out_summary.csv": "cc0fd9873bbcba4252730e83c41a42c63994334f72fe4942116f5dfbd4713c24",
+    "stderr.txt": "5d6b8484e44d0704035db0c204dc252e9ea5ae35921d273f7f3bc281feaf5cfb",
+    "stdout.txt": "e3a2d0503e447bd6ac253882ea3ab9ffded71c4a9545e20d8d236647176c9b61"
+  }
+}

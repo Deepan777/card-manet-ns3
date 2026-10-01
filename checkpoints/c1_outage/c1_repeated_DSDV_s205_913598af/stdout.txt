@@ -1,0 +1,1 @@
+algorithm=DSDV fault=repeated generated=43132 received=13427 timely_pdr=0.224682 accepted=792 confirms=0 source_rreq=0 relayed=0 uncharged=0 ctrl_bytes=0

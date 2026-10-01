@@ -1,0 +1,7224 @@
+{
+ "campaign_id": "card_fading",
+ "purpose": "CARD arms in every published cell at the published held-out seeds.",
+ "fork_rev": 7,
+ "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe",
+ "binary_per_run": true,
+ "ns3_version": "3.46.1",
+ "ns3_commit": "51387bce7e5f5c57aa080612a4ed690bf33d0c92",
+ "arms": [
+  "AODV-STOCK",
+  "RREP-RESET",
+  "CARD",
+  "CARD-NO-CAUSE"
+ ],
+ "design_revision": "R054: reach hint applied only after a topology change (CARD); CARD-NO-EXEMPT added. Pilot 1 (rev 6) showed the cause-blind hint costs 0.16 timely PDR in the bottleneck.",
+ "classifier_defaults": {
+  "card_edge_dbm": -79.0,
+  "card_trend_db": 0.1,
+  "derivation": "range edge -82 dBm (link cliff at 141-142 m, stage2 distance sweep) plus 3 dB; any fall above 0.1 dB over >= 1 s. Fixed before the pilot."
+ },
+ "pairing": "references run at the same development seeds inside the pilot",
+ "runs": [
+  {
+   "run_id": "f_AODVSTOCK_s201_2db0180b",
+   "args": [
+    "--algorithm=AODV-STOCK",
+    "--rngRun=201",
+    "--rngSeed=20260905",
+    "--speed=5.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "AODV-STOCK",
+    "rng_run": 201,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 5.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_AODVSTOCK_s202_ff25b232",
+   "args": [
+    "--algorithm=AODV-STOCK",
+    "--rngRun=202",
+    "--rngSeed=20260905",
+    "--speed=5.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "AODV-STOCK",
+    "rng_run": 202,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 5.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_AODVSTOCK_s203_2c11f724",
+   "args": [
+    "--algorithm=AODV-STOCK",
+    "--rngRun=203",
+    "--rngSeed=20260905",
+    "--speed=5.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "AODV-STOCK",
+    "rng_run": 203,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 5.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_AODVSTOCK_s204_423dd3af",
+   "args": [
+    "--algorithm=AODV-STOCK",
+    "--rngRun=204",
+    "--rngSeed=20260905",
+    "--speed=5.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "AODV-STOCK",
+    "rng_run": 204,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 5.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_AODVSTOCK_s205_4b19c7a2",
+   "args": [
+    "--algorithm=AODV-STOCK",
+    "--rngRun=205",
+    "--rngSeed=20260905",
+    "--speed=5.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "AODV-STOCK",
+    "rng_run": 205,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 5.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_AODVSTOCK_s206_0ee4c8b1",
+   "args": [
+    "--algorithm=AODV-STOCK",
+    "--rngRun=206",
+    "--rngSeed=20260905",
+    "--speed=5.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "AODV-STOCK",
+    "rng_run": 206,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 5.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_AODVSTOCK_s207_3a31d083",
+   "args": [
+    "--algorithm=AODV-STOCK",
+    "--rngRun=207",
+    "--rngSeed=20260905",
+    "--speed=5.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "AODV-STOCK",
+    "rng_run": 207,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 5.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_AODVSTOCK_s208_a56e5512",
+   "args": [
+    "--algorithm=AODV-STOCK",
+    "--rngRun=208",
+    "--rngSeed=20260905",
+    "--speed=5.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "AODV-STOCK",
+    "rng_run": 208,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 5.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_AODVSTOCK_s209_c8b0a034",
+   "args": [
+    "--algorithm=AODV-STOCK",
+    "--rngRun=209",
+    "--rngSeed=20260905",
+    "--speed=5.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "AODV-STOCK",
+    "rng_run": 209,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 5.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_AODVSTOCK_s210_a5024bed",
+   "args": [
+    "--algorithm=AODV-STOCK",
+    "--rngRun=210",
+    "--rngSeed=20260905",
+    "--speed=5.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "AODV-STOCK",
+    "rng_run": 210,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 5.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_AODVSTOCK_s211_996d35af",
+   "args": [
+    "--algorithm=AODV-STOCK",
+    "--rngRun=211",
+    "--rngSeed=20260905",
+    "--speed=5.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "AODV-STOCK",
+    "rng_run": 211,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 5.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_AODVSTOCK_s212_db403085",
+   "args": [
+    "--algorithm=AODV-STOCK",
+    "--rngRun=212",
+    "--rngSeed=20260905",
+    "--speed=5.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "AODV-STOCK",
+    "rng_run": 212,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 5.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_AODVSTOCK_s213_bbc2f66f",
+   "args": [
+    "--algorithm=AODV-STOCK",
+    "--rngRun=213",
+    "--rngSeed=20260905",
+    "--speed=5.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "AODV-STOCK",
+    "rng_run": 213,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 5.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_AODVSTOCK_s214_213f2c51",
+   "args": [
+    "--algorithm=AODV-STOCK",
+    "--rngRun=214",
+    "--rngSeed=20260905",
+    "--speed=5.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "AODV-STOCK",
+    "rng_run": 214,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 5.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_AODVSTOCK_s215_a0952ce8",
+   "args": [
+    "--algorithm=AODV-STOCK",
+    "--rngRun=215",
+    "--rngSeed=20260905",
+    "--speed=5.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "AODV-STOCK",
+    "rng_run": 215,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 5.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_AODVSTOCK_s216_5efe560f",
+   "args": [
+    "--algorithm=AODV-STOCK",
+    "--rngRun=216",
+    "--rngSeed=20260905",
+    "--speed=5.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "AODV-STOCK",
+    "rng_run": 216,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 5.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_AODVSTOCK_s217_93078915",
+   "args": [
+    "--algorithm=AODV-STOCK",
+    "--rngRun=217",
+    "--rngSeed=20260905",
+    "--speed=5.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "AODV-STOCK",
+    "rng_run": 217,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 5.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_AODVSTOCK_s218_9d188851",
+   "args": [
+    "--algorithm=AODV-STOCK",
+    "--rngRun=218",
+    "--rngSeed=20260905",
+    "--speed=5.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "AODV-STOCK",
+    "rng_run": 218,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 5.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_AODVSTOCK_s219_284893f6",
+   "args": [
+    "--algorithm=AODV-STOCK",
+    "--rngRun=219",
+    "--rngSeed=20260905",
+    "--speed=5.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "AODV-STOCK",
+    "rng_run": 219,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 5.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_AODVSTOCK_s220_ac52ccf1",
+   "args": [
+    "--algorithm=AODV-STOCK",
+    "--rngRun=220",
+    "--rngSeed=20260905",
+    "--speed=5.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "AODV-STOCK",
+    "rng_run": 220,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 5.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_AODVSTOCK_s221_72427f83",
+   "args": [
+    "--algorithm=AODV-STOCK",
+    "--rngRun=221",
+    "--rngSeed=20260905",
+    "--speed=5.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "AODV-STOCK",
+    "rng_run": 221,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 5.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_AODVSTOCK_s222_47392fd6",
+   "args": [
+    "--algorithm=AODV-STOCK",
+    "--rngRun=222",
+    "--rngSeed=20260905",
+    "--speed=5.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "AODV-STOCK",
+    "rng_run": 222,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 5.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_AODVSTOCK_s223_ef003f04",
+   "args": [
+    "--algorithm=AODV-STOCK",
+    "--rngRun=223",
+    "--rngSeed=20260905",
+    "--speed=5.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "AODV-STOCK",
+    "rng_run": 223,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 5.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_AODVSTOCK_s224_1b15b5d8",
+   "args": [
+    "--algorithm=AODV-STOCK",
+    "--rngRun=224",
+    "--rngSeed=20260905",
+    "--speed=5.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "AODV-STOCK",
+    "rng_run": 224,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 5.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_AODVSTOCK_s225_e380bb34",
+   "args": [
+    "--algorithm=AODV-STOCK",
+    "--rngRun=225",
+    "--rngSeed=20260905",
+    "--speed=5.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "AODV-STOCK",
+    "rng_run": 225,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 5.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_AODVSTOCK_s226_58ae2550",
+   "args": [
+    "--algorithm=AODV-STOCK",
+    "--rngRun=226",
+    "--rngSeed=20260905",
+    "--speed=5.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "AODV-STOCK",
+    "rng_run": 226,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 5.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_AODVSTOCK_s227_0ced8dc7",
+   "args": [
+    "--algorithm=AODV-STOCK",
+    "--rngRun=227",
+    "--rngSeed=20260905",
+    "--speed=5.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "AODV-STOCK",
+    "rng_run": 227,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 5.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_AODVSTOCK_s228_41e33486",
+   "args": [
+    "--algorithm=AODV-STOCK",
+    "--rngRun=228",
+    "--rngSeed=20260905",
+    "--speed=5.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "AODV-STOCK",
+    "rng_run": 228,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 5.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_AODVSTOCK_s229_9e998a5d",
+   "args": [
+    "--algorithm=AODV-STOCK",
+    "--rngRun=229",
+    "--rngSeed=20260905",
+    "--speed=5.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "AODV-STOCK",
+    "rng_run": 229,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 5.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_AODVSTOCK_s230_636b5c38",
+   "args": [
+    "--algorithm=AODV-STOCK",
+    "--rngRun=230",
+    "--rngSeed=20260905",
+    "--speed=5.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "AODV-STOCK",
+    "rng_run": 230,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 5.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_RREPRESET_s201_e125a081",
+   "args": [
+    "--algorithm=RREP-RESET",
+    "--rngRun=201",
+    "--rngSeed=20260905",
+    "--speed=5.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "RREP-RESET",
+    "rng_run": 201,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 5.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_RREPRESET_s202_a0c15bf7",
+   "args": [
+    "--algorithm=RREP-RESET",
+    "--rngRun=202",
+    "--rngSeed=20260905",
+    "--speed=5.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "RREP-RESET",
+    "rng_run": 202,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 5.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_RREPRESET_s203_eb84036d",
+   "args": [
+    "--algorithm=RREP-RESET",
+    "--rngRun=203",
+    "--rngSeed=20260905",
+    "--speed=5.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "RREP-RESET",
+    "rng_run": 203,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 5.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_RREPRESET_s204_033c0a03",
+   "args": [
+    "--algorithm=RREP-RESET",
+    "--rngRun=204",
+    "--rngSeed=20260905",
+    "--speed=5.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "RREP-RESET",
+    "rng_run": 204,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 5.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_RREPRESET_s205_2af87d96",
+   "args": [
+    "--algorithm=RREP-RESET",
+    "--rngRun=205",
+    "--rngSeed=20260905",
+    "--speed=5.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "RREP-RESET",
+    "rng_run": 205,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 5.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_RREPRESET_s206_6303362d",
+   "args": [
+    "--algorithm=RREP-RESET",
+    "--rngRun=206",
+    "--rngSeed=20260905",
+    "--speed=5.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "RREP-RESET",
+    "rng_run": 206,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 5.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_RREPRESET_s207_e899f7b4",
+   "args": [
+    "--algorithm=RREP-RESET",
+    "--rngRun=207",
+    "--rngSeed=20260905",
+    "--speed=5.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "RREP-RESET",
+    "rng_run": 207,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 5.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_RREPRESET_s208_279eaa6d",
+   "args": [
+    "--algorithm=RREP-RESET",
+    "--rngRun=208",
+    "--rngSeed=20260905",
+    "--speed=5.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "RREP-RESET",
+    "rng_run": 208,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 5.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_RREPRESET_s209_fd3883a9",
+   "args": [
+    "--algorithm=RREP-RESET",
+    "--rngRun=209",
+    "--rngSeed=20260905",
+    "--speed=5.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "RREP-RESET",
+    "rng_run": 209,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 5.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_RREPRESET_s210_f2ba0367",
+   "args": [
+    "--algorithm=RREP-RESET",
+    "--rngRun=210",
+    "--rngSeed=20260905",
+    "--speed=5.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "RREP-RESET",
+    "rng_run": 210,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 5.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_RREPRESET_s211_7432a61a",
+   "args": [
+    "--algorithm=RREP-RESET",
+    "--rngRun=211",
+    "--rngSeed=20260905",
+    "--speed=5.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "RREP-RESET",
+    "rng_run": 211,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 5.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_RREPRESET_s212_4b73505a",
+   "args": [
+    "--algorithm=RREP-RESET",
+    "--rngRun=212",
+    "--rngSeed=20260905",
+    "--speed=5.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "RREP-RESET",
+    "rng_run": 212,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 5.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_RREPRESET_s213_1230f485",
+   "args": [
+    "--algorithm=RREP-RESET",
+    "--rngRun=213",
+    "--rngSeed=20260905",
+    "--speed=5.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "RREP-RESET",
+    "rng_run": 213,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 5.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_RREPRESET_s214_aac9af4c",
+   "args": [
+    "--algorithm=RREP-RESET",
+    "--rngRun=214",
+    "--rngSeed=20260905",
+    "--speed=5.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "RREP-RESET",
+    "rng_run": 214,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 5.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_RREPRESET_s215_ac64ebb3",
+   "args": [
+    "--algorithm=RREP-RESET",
+    "--rngRun=215",
+    "--rngSeed=20260905",
+    "--speed=5.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "RREP-RESET",
+    "rng_run": 215,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 5.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_RREPRESET_s216_2c05a2ff",
+   "args": [
+    "--algorithm=RREP-RESET",
+    "--rngRun=216",
+    "--rngSeed=20260905",
+    "--speed=5.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "RREP-RESET",
+    "rng_run": 216,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 5.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_RREPRESET_s217_8634286a",
+   "args": [
+    "--algorithm=RREP-RESET",
+    "--rngRun=217",
+    "--rngSeed=20260905",
+    "--speed=5.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "RREP-RESET",
+    "rng_run": 217,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 5.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_RREPRESET_s218_51fc679f",
+   "args": [
+    "--algorithm=RREP-RESET",
+    "--rngRun=218",
+    "--rngSeed=20260905",
+    "--speed=5.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "RREP-RESET",
+    "rng_run": 218,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 5.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_RREPRESET_s219_265ae22d",
+   "args": [
+    "--algorithm=RREP-RESET",
+    "--rngRun=219",
+    "--rngSeed=20260905",
+    "--speed=5.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "RREP-RESET",
+    "rng_run": 219,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 5.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_RREPRESET_s220_a725dfc5",
+   "args": [
+    "--algorithm=RREP-RESET",
+    "--rngRun=220",
+    "--rngSeed=20260905",
+    "--speed=5.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "RREP-RESET",
+    "rng_run": 220,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 5.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_RREPRESET_s221_23702371",
+   "args": [
+    "--algorithm=RREP-RESET",
+    "--rngRun=221",
+    "--rngSeed=20260905",
+    "--speed=5.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "RREP-RESET",
+    "rng_run": 221,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 5.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_RREPRESET_s222_e4a6b9ca",
+   "args": [
+    "--algorithm=RREP-RESET",
+    "--rngRun=222",
+    "--rngSeed=20260905",
+    "--speed=5.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "RREP-RESET",
+    "rng_run": 222,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 5.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_RREPRESET_s223_dda9c9d6",
+   "args": [
+    "--algorithm=RREP-RESET",
+    "--rngRun=223",
+    "--rngSeed=20260905",
+    "--speed=5.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "RREP-RESET",
+    "rng_run": 223,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 5.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_RREPRESET_s224_92e56ba5",
+   "args": [
+    "--algorithm=RREP-RESET",
+    "--rngRun=224",
+    "--rngSeed=20260905",
+    "--speed=5.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "RREP-RESET",
+    "rng_run": 224,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 5.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_RREPRESET_s225_4e791fba",
+   "args": [
+    "--algorithm=RREP-RESET",
+    "--rngRun=225",
+    "--rngSeed=20260905",
+    "--speed=5.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "RREP-RESET",
+    "rng_run": 225,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 5.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_RREPRESET_s226_34d86d05",
+   "args": [
+    "--algorithm=RREP-RESET",
+    "--rngRun=226",
+    "--rngSeed=20260905",
+    "--speed=5.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "RREP-RESET",
+    "rng_run": 226,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 5.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_RREPRESET_s227_73e88dea",
+   "args": [
+    "--algorithm=RREP-RESET",
+    "--rngRun=227",
+    "--rngSeed=20260905",
+    "--speed=5.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "RREP-RESET",
+    "rng_run": 227,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 5.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_RREPRESET_s228_71f1cca7",
+   "args": [
+    "--algorithm=RREP-RESET",
+    "--rngRun=228",
+    "--rngSeed=20260905",
+    "--speed=5.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "RREP-RESET",
+    "rng_run": 228,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 5.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_RREPRESET_s229_247d91d5",
+   "args": [
+    "--algorithm=RREP-RESET",
+    "--rngRun=229",
+    "--rngSeed=20260905",
+    "--speed=5.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "RREP-RESET",
+    "rng_run": 229,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 5.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_RREPRESET_s230_86cdd66b",
+   "args": [
+    "--algorithm=RREP-RESET",
+    "--rngRun=230",
+    "--rngSeed=20260905",
+    "--speed=5.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "RREP-RESET",
+    "rng_run": 230,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 5.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_CARD_s201_c2b1934b",
+   "args": [
+    "--algorithm=CARD",
+    "--rngRun=201",
+    "--rngSeed=20260905",
+    "--speed=5.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "CARD",
+    "rng_run": 201,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 5.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_CARD_s202_4df8396d",
+   "args": [
+    "--algorithm=CARD",
+    "--rngRun=202",
+    "--rngSeed=20260905",
+    "--speed=5.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "CARD",
+    "rng_run": 202,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 5.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_CARD_s203_037bd4ba",
+   "args": [
+    "--algorithm=CARD",
+    "--rngRun=203",
+    "--rngSeed=20260905",
+    "--speed=5.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "CARD",
+    "rng_run": 203,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 5.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_CARD_s204_75d2d108",
+   "args": [
+    "--algorithm=CARD",
+    "--rngRun=204",
+    "--rngSeed=20260905",
+    "--speed=5.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "CARD",
+    "rng_run": 204,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 5.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_CARD_s205_f003e105",
+   "args": [
+    "--algorithm=CARD",
+    "--rngRun=205",
+    "--rngSeed=20260905",
+    "--speed=5.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "CARD",
+    "rng_run": 205,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 5.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_CARD_s206_7ef6cbb4",
+   "args": [
+    "--algorithm=CARD",
+    "--rngRun=206",
+    "--rngSeed=20260905",
+    "--speed=5.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "CARD",
+    "rng_run": 206,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 5.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_CARD_s207_0efde7ff",
+   "args": [
+    "--algorithm=CARD",
+    "--rngRun=207",
+    "--rngSeed=20260905",
+    "--speed=5.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "CARD",
+    "rng_run": 207,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 5.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_CARD_s208_ee14bc36",
+   "args": [
+    "--algorithm=CARD",
+    "--rngRun=208",
+    "--rngSeed=20260905",
+    "--speed=5.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "CARD",
+    "rng_run": 208,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 5.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_CARD_s209_4f039c7d",
+   "args": [
+    "--algorithm=CARD",
+    "--rngRun=209",
+    "--rngSeed=20260905",
+    "--speed=5.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "CARD",
+    "rng_run": 209,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 5.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_CARD_s210_267909fd",
+   "args": [
+    "--algorithm=CARD",
+    "--rngRun=210",
+    "--rngSeed=20260905",
+    "--speed=5.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "CARD",
+    "rng_run": 210,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 5.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_CARD_s211_0114324b",
+   "args": [
+    "--algorithm=CARD",
+    "--rngRun=211",
+    "--rngSeed=20260905",
+    "--speed=5.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "CARD",
+    "rng_run": 211,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 5.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_CARD_s212_4bb26753",
+   "args": [
+    "--algorithm=CARD",
+    "--rngRun=212",
+    "--rngSeed=20260905",
+    "--speed=5.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "CARD",
+    "rng_run": 212,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 5.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_CARD_s213_afad1e80",
+   "args": [
+    "--algorithm=CARD",
+    "--rngRun=213",
+    "--rngSeed=20260905",
+    "--speed=5.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "CARD",
+    "rng_run": 213,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 5.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_CARD_s214_cb9fe4ad",
+   "args": [
+    "--algorithm=CARD",
+    "--rngRun=214",
+    "--rngSeed=20260905",
+    "--speed=5.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "CARD",
+    "rng_run": 214,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 5.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_CARD_s215_498cb9a5",
+   "args": [
+    "--algorithm=CARD",
+    "--rngRun=215",
+    "--rngSeed=20260905",
+    "--speed=5.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "CARD",
+    "rng_run": 215,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 5.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_CARD_s216_81e9f7c6",
+   "args": [
+    "--algorithm=CARD",
+    "--rngRun=216",
+    "--rngSeed=20260905",
+    "--speed=5.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "CARD",
+    "rng_run": 216,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 5.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_CARD_s217_20022bc7",
+   "args": [
+    "--algorithm=CARD",
+    "--rngRun=217",
+    "--rngSeed=20260905",
+    "--speed=5.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "CARD",
+    "rng_run": 217,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 5.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_CARD_s218_774cb77f",
+   "args": [
+    "--algorithm=CARD",
+    "--rngRun=218",
+    "--rngSeed=20260905",
+    "--speed=5.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "CARD",
+    "rng_run": 218,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 5.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_CARD_s219_a89ea764",
+   "args": [
+    "--algorithm=CARD",
+    "--rngRun=219",
+    "--rngSeed=20260905",
+    "--speed=5.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "CARD",
+    "rng_run": 219,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 5.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_CARD_s220_bceaca09",
+   "args": [
+    "--algorithm=CARD",
+    "--rngRun=220",
+    "--rngSeed=20260905",
+    "--speed=5.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "CARD",
+    "rng_run": 220,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 5.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_CARD_s221_803c4fb6",
+   "args": [
+    "--algorithm=CARD",
+    "--rngRun=221",
+    "--rngSeed=20260905",
+    "--speed=5.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "CARD",
+    "rng_run": 221,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 5.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_CARD_s222_09228a8a",
+   "args": [
+    "--algorithm=CARD",
+    "--rngRun=222",
+    "--rngSeed=20260905",
+    "--speed=5.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "CARD",
+    "rng_run": 222,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 5.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_CARD_s223_5df0d149",
+   "args": [
+    "--algorithm=CARD",
+    "--rngRun=223",
+    "--rngSeed=20260905",
+    "--speed=5.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "CARD",
+    "rng_run": 223,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 5.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_CARD_s224_63f35e62",
+   "args": [
+    "--algorithm=CARD",
+    "--rngRun=224",
+    "--rngSeed=20260905",
+    "--speed=5.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "CARD",
+    "rng_run": 224,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 5.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_CARD_s225_6954211e",
+   "args": [
+    "--algorithm=CARD",
+    "--rngRun=225",
+    "--rngSeed=20260905",
+    "--speed=5.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "CARD",
+    "rng_run": 225,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 5.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_CARD_s226_712aeee6",
+   "args": [
+    "--algorithm=CARD",
+    "--rngRun=226",
+    "--rngSeed=20260905",
+    "--speed=5.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "CARD",
+    "rng_run": 226,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 5.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_CARD_s227_7d1569ea",
+   "args": [
+    "--algorithm=CARD",
+    "--rngRun=227",
+    "--rngSeed=20260905",
+    "--speed=5.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "CARD",
+    "rng_run": 227,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 5.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_CARD_s228_a8f834cc",
+   "args": [
+    "--algorithm=CARD",
+    "--rngRun=228",
+    "--rngSeed=20260905",
+    "--speed=5.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "CARD",
+    "rng_run": 228,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 5.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_CARD_s229_b1117986",
+   "args": [
+    "--algorithm=CARD",
+    "--rngRun=229",
+    "--rngSeed=20260905",
+    "--speed=5.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "CARD",
+    "rng_run": 229,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 5.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_CARD_s230_7224792a",
+   "args": [
+    "--algorithm=CARD",
+    "--rngRun=230",
+    "--rngSeed=20260905",
+    "--speed=5.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "CARD",
+    "rng_run": 230,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 5.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_CARDNOCAUSE_s201_9d6746c3",
+   "args": [
+    "--algorithm=CARD-NO-CAUSE",
+    "--rngRun=201",
+    "--rngSeed=20260905",
+    "--speed=5.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "CARD-NO-CAUSE",
+    "rng_run": 201,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 5.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_CARDNOCAUSE_s202_0904636e",
+   "args": [
+    "--algorithm=CARD-NO-CAUSE",
+    "--rngRun=202",
+    "--rngSeed=20260905",
+    "--speed=5.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "CARD-NO-CAUSE",
+    "rng_run": 202,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 5.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_CARDNOCAUSE_s203_58f8ff70",
+   "args": [
+    "--algorithm=CARD-NO-CAUSE",
+    "--rngRun=203",
+    "--rngSeed=20260905",
+    "--speed=5.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "CARD-NO-CAUSE",
+    "rng_run": 203,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 5.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_CARDNOCAUSE_s204_d06731f2",
+   "args": [
+    "--algorithm=CARD-NO-CAUSE",
+    "--rngRun=204",
+    "--rngSeed=20260905",
+    "--speed=5.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "CARD-NO-CAUSE",
+    "rng_run": 204,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 5.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_CARDNOCAUSE_s205_40d87347",
+   "args": [
+    "--algorithm=CARD-NO-CAUSE",
+    "--rngRun=205",
+    "--rngSeed=20260905",
+    "--speed=5.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "CARD-NO-CAUSE",
+    "rng_run": 205,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 5.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_CARDNOCAUSE_s206_6e656749",
+   "args": [
+    "--algorithm=CARD-NO-CAUSE",
+    "--rngRun=206",
+    "--rngSeed=20260905",
+    "--speed=5.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "CARD-NO-CAUSE",
+    "rng_run": 206,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 5.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_CARDNOCAUSE_s207_07d9e191",
+   "args": [
+    "--algorithm=CARD-NO-CAUSE",
+    "--rngRun=207",
+    "--rngSeed=20260905",
+    "--speed=5.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "CARD-NO-CAUSE",
+    "rng_run": 207,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 5.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_CARDNOCAUSE_s208_b2d871f5",
+   "args": [
+    "--algorithm=CARD-NO-CAUSE",
+    "--rngRun=208",
+    "--rngSeed=20260905",
+    "--speed=5.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "CARD-NO-CAUSE",
+    "rng_run": 208,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 5.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_CARDNOCAUSE_s209_c36ee575",
+   "args": [
+    "--algorithm=CARD-NO-CAUSE",
+    "--rngRun=209",
+    "--rngSeed=20260905",
+    "--speed=5.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "CARD-NO-CAUSE",
+    "rng_run": 209,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 5.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_CARDNOCAUSE_s210_8e37ea49",
+   "args": [
+    "--algorithm=CARD-NO-CAUSE",
+    "--rngRun=210",
+    "--rngSeed=20260905",
+    "--speed=5.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "CARD-NO-CAUSE",
+    "rng_run": 210,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 5.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_CARDNOCAUSE_s211_ca53bbb4",
+   "args": [
+    "--algorithm=CARD-NO-CAUSE",
+    "--rngRun=211",
+    "--rngSeed=20260905",
+    "--speed=5.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "CARD-NO-CAUSE",
+    "rng_run": 211,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 5.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_CARDNOCAUSE_s212_15b72081",
+   "args": [
+    "--algorithm=CARD-NO-CAUSE",
+    "--rngRun=212",
+    "--rngSeed=20260905",
+    "--speed=5.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "CARD-NO-CAUSE",
+    "rng_run": 212,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 5.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_CARDNOCAUSE_s213_a230268e",
+   "args": [
+    "--algorithm=CARD-NO-CAUSE",
+    "--rngRun=213",
+    "--rngSeed=20260905",
+    "--speed=5.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "CARD-NO-CAUSE",
+    "rng_run": 213,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 5.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_CARDNOCAUSE_s214_902df114",
+   "args": [
+    "--algorithm=CARD-NO-CAUSE",
+    "--rngRun=214",
+    "--rngSeed=20260905",
+    "--speed=5.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "CARD-NO-CAUSE",
+    "rng_run": 214,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 5.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_CARDNOCAUSE_s215_961ac0f2",
+   "args": [
+    "--algorithm=CARD-NO-CAUSE",
+    "--rngRun=215",
+    "--rngSeed=20260905",
+    "--speed=5.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "CARD-NO-CAUSE",
+    "rng_run": 215,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 5.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_CARDNOCAUSE_s216_e92fae25",
+   "args": [
+    "--algorithm=CARD-NO-CAUSE",
+    "--rngRun=216",
+    "--rngSeed=20260905",
+    "--speed=5.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "CARD-NO-CAUSE",
+    "rng_run": 216,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 5.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_CARDNOCAUSE_s217_abb811f5",
+   "args": [
+    "--algorithm=CARD-NO-CAUSE",
+    "--rngRun=217",
+    "--rngSeed=20260905",
+    "--speed=5.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "CARD-NO-CAUSE",
+    "rng_run": 217,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 5.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_CARDNOCAUSE_s218_c33d9aff",
+   "args": [
+    "--algorithm=CARD-NO-CAUSE",
+    "--rngRun=218",
+    "--rngSeed=20260905",
+    "--speed=5.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "CARD-NO-CAUSE",
+    "rng_run": 218,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 5.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_CARDNOCAUSE_s219_6daef52a",
+   "args": [
+    "--algorithm=CARD-NO-CAUSE",
+    "--rngRun=219",
+    "--rngSeed=20260905",
+    "--speed=5.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "CARD-NO-CAUSE",
+    "rng_run": 219,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 5.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_CARDNOCAUSE_s220_97d9eac4",
+   "args": [
+    "--algorithm=CARD-NO-CAUSE",
+    "--rngRun=220",
+    "--rngSeed=20260905",
+    "--speed=5.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "CARD-NO-CAUSE",
+    "rng_run": 220,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 5.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_CARDNOCAUSE_s221_9a004e28",
+   "args": [
+    "--algorithm=CARD-NO-CAUSE",
+    "--rngRun=221",
+    "--rngSeed=20260905",
+    "--speed=5.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "CARD-NO-CAUSE",
+    "rng_run": 221,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 5.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_CARDNOCAUSE_s222_7c4267ed",
+   "args": [
+    "--algorithm=CARD-NO-CAUSE",
+    "--rngRun=222",
+    "--rngSeed=20260905",
+    "--speed=5.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "CARD-NO-CAUSE",
+    "rng_run": 222,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 5.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_CARDNOCAUSE_s223_d6551f71",
+   "args": [
+    "--algorithm=CARD-NO-CAUSE",
+    "--rngRun=223",
+    "--rngSeed=20260905",
+    "--speed=5.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "CARD-NO-CAUSE",
+    "rng_run": 223,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 5.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_CARDNOCAUSE_s224_8dd63c58",
+   "args": [
+    "--algorithm=CARD-NO-CAUSE",
+    "--rngRun=224",
+    "--rngSeed=20260905",
+    "--speed=5.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "CARD-NO-CAUSE",
+    "rng_run": 224,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 5.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_CARDNOCAUSE_s225_6d7c998d",
+   "args": [
+    "--algorithm=CARD-NO-CAUSE",
+    "--rngRun=225",
+    "--rngSeed=20260905",
+    "--speed=5.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "CARD-NO-CAUSE",
+    "rng_run": 225,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 5.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_CARDNOCAUSE_s226_daad9876",
+   "args": [
+    "--algorithm=CARD-NO-CAUSE",
+    "--rngRun=226",
+    "--rngSeed=20260905",
+    "--speed=5.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "CARD-NO-CAUSE",
+    "rng_run": 226,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 5.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_CARDNOCAUSE_s227_dd4e22ad",
+   "args": [
+    "--algorithm=CARD-NO-CAUSE",
+    "--rngRun=227",
+    "--rngSeed=20260905",
+    "--speed=5.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "CARD-NO-CAUSE",
+    "rng_run": 227,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 5.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_CARDNOCAUSE_s228_6908e696",
+   "args": [
+    "--algorithm=CARD-NO-CAUSE",
+    "--rngRun=228",
+    "--rngSeed=20260905",
+    "--speed=5.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "CARD-NO-CAUSE",
+    "rng_run": 228,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 5.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_CARDNOCAUSE_s229_865c1b74",
+   "args": [
+    "--algorithm=CARD-NO-CAUSE",
+    "--rngRun=229",
+    "--rngSeed=20260905",
+    "--speed=5.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "CARD-NO-CAUSE",
+    "rng_run": 229,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 5.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_CARDNOCAUSE_s230_49144605",
+   "args": [
+    "--algorithm=CARD-NO-CAUSE",
+    "--rngRun=230",
+    "--rngSeed=20260905",
+    "--speed=5.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "CARD-NO-CAUSE",
+    "rng_run": 230,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 5.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_AODVSTOCK_s201_051e739d",
+   "args": [
+    "--algorithm=AODV-STOCK",
+    "--rngRun=201",
+    "--rngSeed=20260905",
+    "--speed=10.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "AODV-STOCK",
+    "rng_run": 201,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 10.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_AODVSTOCK_s202_2b0c0077",
+   "args": [
+    "--algorithm=AODV-STOCK",
+    "--rngRun=202",
+    "--rngSeed=20260905",
+    "--speed=10.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "AODV-STOCK",
+    "rng_run": 202,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 10.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_AODVSTOCK_s203_3a75be9b",
+   "args": [
+    "--algorithm=AODV-STOCK",
+    "--rngRun=203",
+    "--rngSeed=20260905",
+    "--speed=10.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "AODV-STOCK",
+    "rng_run": 203,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 10.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_AODVSTOCK_s204_564e6a25",
+   "args": [
+    "--algorithm=AODV-STOCK",
+    "--rngRun=204",
+    "--rngSeed=20260905",
+    "--speed=10.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "AODV-STOCK",
+    "rng_run": 204,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 10.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_AODVSTOCK_s205_3add7932",
+   "args": [
+    "--algorithm=AODV-STOCK",
+    "--rngRun=205",
+    "--rngSeed=20260905",
+    "--speed=10.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "AODV-STOCK",
+    "rng_run": 205,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 10.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_AODVSTOCK_s206_7081cb86",
+   "args": [
+    "--algorithm=AODV-STOCK",
+    "--rngRun=206",
+    "--rngSeed=20260905",
+    "--speed=10.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "AODV-STOCK",
+    "rng_run": 206,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 10.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_AODVSTOCK_s207_14601122",
+   "args": [
+    "--algorithm=AODV-STOCK",
+    "--rngRun=207",
+    "--rngSeed=20260905",
+    "--speed=10.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "AODV-STOCK",
+    "rng_run": 207,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 10.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_AODVSTOCK_s208_582d2621",
+   "args": [
+    "--algorithm=AODV-STOCK",
+    "--rngRun=208",
+    "--rngSeed=20260905",
+    "--speed=10.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "AODV-STOCK",
+    "rng_run": 208,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 10.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_AODVSTOCK_s209_192553e2",
+   "args": [
+    "--algorithm=AODV-STOCK",
+    "--rngRun=209",
+    "--rngSeed=20260905",
+    "--speed=10.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "AODV-STOCK",
+    "rng_run": 209,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 10.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_AODVSTOCK_s210_eff9b4a7",
+   "args": [
+    "--algorithm=AODV-STOCK",
+    "--rngRun=210",
+    "--rngSeed=20260905",
+    "--speed=10.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "AODV-STOCK",
+    "rng_run": 210,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 10.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_AODVSTOCK_s211_fff0f53a",
+   "args": [
+    "--algorithm=AODV-STOCK",
+    "--rngRun=211",
+    "--rngSeed=20260905",
+    "--speed=10.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "AODV-STOCK",
+    "rng_run": 211,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 10.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_AODVSTOCK_s212_9b14d470",
+   "args": [
+    "--algorithm=AODV-STOCK",
+    "--rngRun=212",
+    "--rngSeed=20260905",
+    "--speed=10.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "AODV-STOCK",
+    "rng_run": 212,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 10.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_AODVSTOCK_s213_f73a0a53",
+   "args": [
+    "--algorithm=AODV-STOCK",
+    "--rngRun=213",
+    "--rngSeed=20260905",
+    "--speed=10.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "AODV-STOCK",
+    "rng_run": 213,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 10.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_AODVSTOCK_s214_bb650136",
+   "args": [
+    "--algorithm=AODV-STOCK",
+    "--rngRun=214",
+    "--rngSeed=20260905",
+    "--speed=10.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "AODV-STOCK",
+    "rng_run": 214,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 10.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_AODVSTOCK_s215_a619e0d0",
+   "args": [
+    "--algorithm=AODV-STOCK",
+    "--rngRun=215",
+    "--rngSeed=20260905",
+    "--speed=10.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "AODV-STOCK",
+    "rng_run": 215,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 10.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_AODVSTOCK_s216_8780a796",
+   "args": [
+    "--algorithm=AODV-STOCK",
+    "--rngRun=216",
+    "--rngSeed=20260905",
+    "--speed=10.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "AODV-STOCK",
+    "rng_run": 216,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 10.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_AODVSTOCK_s217_a5eef88c",
+   "args": [
+    "--algorithm=AODV-STOCK",
+    "--rngRun=217",
+    "--rngSeed=20260905",
+    "--speed=10.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "AODV-STOCK",
+    "rng_run": 217,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 10.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_AODVSTOCK_s218_04fb5d6f",
+   "args": [
+    "--algorithm=AODV-STOCK",
+    "--rngRun=218",
+    "--rngSeed=20260905",
+    "--speed=10.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "AODV-STOCK",
+    "rng_run": 218,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 10.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_AODVSTOCK_s219_ae51d0d1",
+   "args": [
+    "--algorithm=AODV-STOCK",
+    "--rngRun=219",
+    "--rngSeed=20260905",
+    "--speed=10.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "AODV-STOCK",
+    "rng_run": 219,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 10.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_AODVSTOCK_s220_a5df49b4",
+   "args": [
+    "--algorithm=AODV-STOCK",
+    "--rngRun=220",
+    "--rngSeed=20260905",
+    "--speed=10.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "AODV-STOCK",
+    "rng_run": 220,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 10.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_AODVSTOCK_s221_fead07a3",
+   "args": [
+    "--algorithm=AODV-STOCK",
+    "--rngRun=221",
+    "--rngSeed=20260905",
+    "--speed=10.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "AODV-STOCK",
+    "rng_run": 221,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 10.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_AODVSTOCK_s222_965a8ebe",
+   "args": [
+    "--algorithm=AODV-STOCK",
+    "--rngRun=222",
+    "--rngSeed=20260905",
+    "--speed=10.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "AODV-STOCK",
+    "rng_run": 222,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 10.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_AODVSTOCK_s223_43bbbfb3",
+   "args": [
+    "--algorithm=AODV-STOCK",
+    "--rngRun=223",
+    "--rngSeed=20260905",
+    "--speed=10.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "AODV-STOCK",
+    "rng_run": 223,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 10.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_AODVSTOCK_s224_1ca7256e",
+   "args": [
+    "--algorithm=AODV-STOCK",
+    "--rngRun=224",
+    "--rngSeed=20260905",
+    "--speed=10.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "AODV-STOCK",
+    "rng_run": 224,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 10.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_AODVSTOCK_s225_cadb0844",
+   "args": [
+    "--algorithm=AODV-STOCK",
+    "--rngRun=225",
+    "--rngSeed=20260905",
+    "--speed=10.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "AODV-STOCK",
+    "rng_run": 225,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 10.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_AODVSTOCK_s226_defc4bc3",
+   "args": [
+    "--algorithm=AODV-STOCK",
+    "--rngRun=226",
+    "--rngSeed=20260905",
+    "--speed=10.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "AODV-STOCK",
+    "rng_run": 226,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 10.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_AODVSTOCK_s227_50070314",
+   "args": [
+    "--algorithm=AODV-STOCK",
+    "--rngRun=227",
+    "--rngSeed=20260905",
+    "--speed=10.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "AODV-STOCK",
+    "rng_run": 227,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 10.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_AODVSTOCK_s228_9beb723e",
+   "args": [
+    "--algorithm=AODV-STOCK",
+    "--rngRun=228",
+    "--rngSeed=20260905",
+    "--speed=10.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "AODV-STOCK",
+    "rng_run": 228,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 10.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_AODVSTOCK_s229_8e701aef",
+   "args": [
+    "--algorithm=AODV-STOCK",
+    "--rngRun=229",
+    "--rngSeed=20260905",
+    "--speed=10.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "AODV-STOCK",
+    "rng_run": 229,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 10.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_AODVSTOCK_s230_75fe9cbd",
+   "args": [
+    "--algorithm=AODV-STOCK",
+    "--rngRun=230",
+    "--rngSeed=20260905",
+    "--speed=10.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "AODV-STOCK",
+    "rng_run": 230,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 10.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_RREPRESET_s201_a730b934",
+   "args": [
+    "--algorithm=RREP-RESET",
+    "--rngRun=201",
+    "--rngSeed=20260905",
+    "--speed=10.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "RREP-RESET",
+    "rng_run": 201,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 10.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_RREPRESET_s202_d3363b59",
+   "args": [
+    "--algorithm=RREP-RESET",
+    "--rngRun=202",
+    "--rngSeed=20260905",
+    "--speed=10.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "RREP-RESET",
+    "rng_run": 202,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 10.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_RREPRESET_s203_6c0002f1",
+   "args": [
+    "--algorithm=RREP-RESET",
+    "--rngRun=203",
+    "--rngSeed=20260905",
+    "--speed=10.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "RREP-RESET",
+    "rng_run": 203,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 10.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_RREPRESET_s204_00105030",
+   "args": [
+    "--algorithm=RREP-RESET",
+    "--rngRun=204",
+    "--rngSeed=20260905",
+    "--speed=10.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "RREP-RESET",
+    "rng_run": 204,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 10.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_RREPRESET_s205_51db665e",
+   "args": [
+    "--algorithm=RREP-RESET",
+    "--rngRun=205",
+    "--rngSeed=20260905",
+    "--speed=10.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "RREP-RESET",
+    "rng_run": 205,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 10.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_RREPRESET_s206_3cf1d037",
+   "args": [
+    "--algorithm=RREP-RESET",
+    "--rngRun=206",
+    "--rngSeed=20260905",
+    "--speed=10.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "RREP-RESET",
+    "rng_run": 206,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 10.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_RREPRESET_s207_cec15ad2",
+   "args": [
+    "--algorithm=RREP-RESET",
+    "--rngRun=207",
+    "--rngSeed=20260905",
+    "--speed=10.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "RREP-RESET",
+    "rng_run": 207,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 10.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_RREPRESET_s208_5ffbb9d0",
+   "args": [
+    "--algorithm=RREP-RESET",
+    "--rngRun=208",
+    "--rngSeed=20260905",
+    "--speed=10.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "RREP-RESET",
+    "rng_run": 208,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 10.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_RREPRESET_s209_89485e59",
+   "args": [
+    "--algorithm=RREP-RESET",
+    "--rngRun=209",
+    "--rngSeed=20260905",
+    "--speed=10.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "RREP-RESET",
+    "rng_run": 209,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 10.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_RREPRESET_s210_66d34ce6",
+   "args": [
+    "--algorithm=RREP-RESET",
+    "--rngRun=210",
+    "--rngSeed=20260905",
+    "--speed=10.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "RREP-RESET",
+    "rng_run": 210,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 10.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_RREPRESET_s211_6f7225b3",
+   "args": [
+    "--algorithm=RREP-RESET",
+    "--rngRun=211",
+    "--rngSeed=20260905",
+    "--speed=10.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "RREP-RESET",
+    "rng_run": 211,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 10.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_RREPRESET_s212_08027ce6",
+   "args": [
+    "--algorithm=RREP-RESET",
+    "--rngRun=212",
+    "--rngSeed=20260905",
+    "--speed=10.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "RREP-RESET",
+    "rng_run": 212,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 10.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_RREPRESET_s213_4230a67d",
+   "args": [
+    "--algorithm=RREP-RESET",
+    "--rngRun=213",
+    "--rngSeed=20260905",
+    "--speed=10.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "RREP-RESET",
+    "rng_run": 213,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 10.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_RREPRESET_s214_c95355a0",
+   "args": [
+    "--algorithm=RREP-RESET",
+    "--rngRun=214",
+    "--rngSeed=20260905",
+    "--speed=10.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "RREP-RESET",
+    "rng_run": 214,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 10.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_RREPRESET_s215_b366633c",
+   "args": [
+    "--algorithm=RREP-RESET",
+    "--rngRun=215",
+    "--rngSeed=20260905",
+    "--speed=10.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "RREP-RESET",
+    "rng_run": 215,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 10.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_RREPRESET_s216_cea19952",
+   "args": [
+    "--algorithm=RREP-RESET",
+    "--rngRun=216",
+    "--rngSeed=20260905",
+    "--speed=10.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "RREP-RESET",
+    "rng_run": 216,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 10.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_RREPRESET_s217_57f00b45",
+   "args": [
+    "--algorithm=RREP-RESET",
+    "--rngRun=217",
+    "--rngSeed=20260905",
+    "--speed=10.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "RREP-RESET",
+    "rng_run": 217,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 10.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_RREPRESET_s218_a1e2a199",
+   "args": [
+    "--algorithm=RREP-RESET",
+    "--rngRun=218",
+    "--rngSeed=20260905",
+    "--speed=10.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "RREP-RESET",
+    "rng_run": 218,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 10.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_RREPRESET_s219_ac36c030",
+   "args": [
+    "--algorithm=RREP-RESET",
+    "--rngRun=219",
+    "--rngSeed=20260905",
+    "--speed=10.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "RREP-RESET",
+    "rng_run": 219,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 10.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_RREPRESET_s220_cf48be93",
+   "args": [
+    "--algorithm=RREP-RESET",
+    "--rngRun=220",
+    "--rngSeed=20260905",
+    "--speed=10.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "RREP-RESET",
+    "rng_run": 220,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 10.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_RREPRESET_s221_2fffe29c",
+   "args": [
+    "--algorithm=RREP-RESET",
+    "--rngRun=221",
+    "--rngSeed=20260905",
+    "--speed=10.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "RREP-RESET",
+    "rng_run": 221,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 10.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_RREPRESET_s222_c296d382",
+   "args": [
+    "--algorithm=RREP-RESET",
+    "--rngRun=222",
+    "--rngSeed=20260905",
+    "--speed=10.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "RREP-RESET",
+    "rng_run": 222,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 10.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_RREPRESET_s223_93f761e0",
+   "args": [
+    "--algorithm=RREP-RESET",
+    "--rngRun=223",
+    "--rngSeed=20260905",
+    "--speed=10.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "RREP-RESET",
+    "rng_run": 223,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 10.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_RREPRESET_s224_887990e2",
+   "args": [
+    "--algorithm=RREP-RESET",
+    "--rngRun=224",
+    "--rngSeed=20260905",
+    "--speed=10.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "RREP-RESET",
+    "rng_run": 224,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 10.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_RREPRESET_s225_648109b3",
+   "args": [
+    "--algorithm=RREP-RESET",
+    "--rngRun=225",
+    "--rngSeed=20260905",
+    "--speed=10.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "RREP-RESET",
+    "rng_run": 225,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 10.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_RREPRESET_s226_26cd24c5",
+   "args": [
+    "--algorithm=RREP-RESET",
+    "--rngRun=226",
+    "--rngSeed=20260905",
+    "--speed=10.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "RREP-RESET",
+    "rng_run": 226,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 10.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_RREPRESET_s227_4ed18b58",
+   "args": [
+    "--algorithm=RREP-RESET",
+    "--rngRun=227",
+    "--rngSeed=20260905",
+    "--speed=10.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "RREP-RESET",
+    "rng_run": 227,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 10.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_RREPRESET_s228_c7e70f4d",
+   "args": [
+    "--algorithm=RREP-RESET",
+    "--rngRun=228",
+    "--rngSeed=20260905",
+    "--speed=10.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "RREP-RESET",
+    "rng_run": 228,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 10.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_RREPRESET_s229_b0932658",
+   "args": [
+    "--algorithm=RREP-RESET",
+    "--rngRun=229",
+    "--rngSeed=20260905",
+    "--speed=10.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "RREP-RESET",
+    "rng_run": 229,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 10.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_RREPRESET_s230_cc29a5f2",
+   "args": [
+    "--algorithm=RREP-RESET",
+    "--rngRun=230",
+    "--rngSeed=20260905",
+    "--speed=10.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "RREP-RESET",
+    "rng_run": 230,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 10.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_CARD_s201_3905e110",
+   "args": [
+    "--algorithm=CARD",
+    "--rngRun=201",
+    "--rngSeed=20260905",
+    "--speed=10.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "CARD",
+    "rng_run": 201,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 10.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_CARD_s202_8d4d1964",
+   "args": [
+    "--algorithm=CARD",
+    "--rngRun=202",
+    "--rngSeed=20260905",
+    "--speed=10.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "CARD",
+    "rng_run": 202,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 10.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_CARD_s203_ff04f73e",
+   "args": [
+    "--algorithm=CARD",
+    "--rngRun=203",
+    "--rngSeed=20260905",
+    "--speed=10.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "CARD",
+    "rng_run": 203,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 10.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_CARD_s204_53abe27b",
+   "args": [
+    "--algorithm=CARD",
+    "--rngRun=204",
+    "--rngSeed=20260905",
+    "--speed=10.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "CARD",
+    "rng_run": 204,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 10.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_CARD_s205_26c0375e",
+   "args": [
+    "--algorithm=CARD",
+    "--rngRun=205",
+    "--rngSeed=20260905",
+    "--speed=10.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "CARD",
+    "rng_run": 205,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 10.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_CARD_s206_8005ffea",
+   "args": [
+    "--algorithm=CARD",
+    "--rngRun=206",
+    "--rngSeed=20260905",
+    "--speed=10.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "CARD",
+    "rng_run": 206,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 10.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_CARD_s207_faff6339",
+   "args": [
+    "--algorithm=CARD",
+    "--rngRun=207",
+    "--rngSeed=20260905",
+    "--speed=10.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "CARD",
+    "rng_run": 207,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 10.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_CARD_s208_cf554a1f",
+   "args": [
+    "--algorithm=CARD",
+    "--rngRun=208",
+    "--rngSeed=20260905",
+    "--speed=10.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "CARD",
+    "rng_run": 208,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 10.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_CARD_s209_26795c85",
+   "args": [
+    "--algorithm=CARD",
+    "--rngRun=209",
+    "--rngSeed=20260905",
+    "--speed=10.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "CARD",
+    "rng_run": 209,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 10.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_CARD_s210_38fd0320",
+   "args": [
+    "--algorithm=CARD",
+    "--rngRun=210",
+    "--rngSeed=20260905",
+    "--speed=10.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "CARD",
+    "rng_run": 210,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 10.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_CARD_s211_a47f6702",
+   "args": [
+    "--algorithm=CARD",
+    "--rngRun=211",
+    "--rngSeed=20260905",
+    "--speed=10.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "CARD",
+    "rng_run": 211,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 10.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_CARD_s212_c5241cdb",
+   "args": [
+    "--algorithm=CARD",
+    "--rngRun=212",
+    "--rngSeed=20260905",
+    "--speed=10.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "CARD",
+    "rng_run": 212,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 10.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_CARD_s213_847e8083",
+   "args": [
+    "--algorithm=CARD",
+    "--rngRun=213",
+    "--rngSeed=20260905",
+    "--speed=10.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "CARD",
+    "rng_run": 213,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 10.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_CARD_s214_39856789",
+   "args": [
+    "--algorithm=CARD",
+    "--rngRun=214",
+    "--rngSeed=20260905",
+    "--speed=10.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "CARD",
+    "rng_run": 214,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 10.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_CARD_s215_32244ac8",
+   "args": [
+    "--algorithm=CARD",
+    "--rngRun=215",
+    "--rngSeed=20260905",
+    "--speed=10.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "CARD",
+    "rng_run": 215,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 10.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_CARD_s216_9f78d26f",
+   "args": [
+    "--algorithm=CARD",
+    "--rngRun=216",
+    "--rngSeed=20260905",
+    "--speed=10.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "CARD",
+    "rng_run": 216,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 10.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_CARD_s217_1839bc44",
+   "args": [
+    "--algorithm=CARD",
+    "--rngRun=217",
+    "--rngSeed=20260905",
+    "--speed=10.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "CARD",
+    "rng_run": 217,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 10.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_CARD_s218_ea1d0f3f",
+   "args": [
+    "--algorithm=CARD",
+    "--rngRun=218",
+    "--rngSeed=20260905",
+    "--speed=10.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "CARD",
+    "rng_run": 218,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 10.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_CARD_s219_10d8a773",
+   "args": [
+    "--algorithm=CARD",
+    "--rngRun=219",
+    "--rngSeed=20260905",
+    "--speed=10.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "CARD",
+    "rng_run": 219,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 10.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_CARD_s220_a4eafdaa",
+   "args": [
+    "--algorithm=CARD",
+    "--rngRun=220",
+    "--rngSeed=20260905",
+    "--speed=10.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "CARD",
+    "rng_run": 220,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 10.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_CARD_s221_0823974e",
+   "args": [
+    "--algorithm=CARD",
+    "--rngRun=221",
+    "--rngSeed=20260905",
+    "--speed=10.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "CARD",
+    "rng_run": 221,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 10.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_CARD_s222_151337cd",
+   "args": [
+    "--algorithm=CARD",
+    "--rngRun=222",
+    "--rngSeed=20260905",
+    "--speed=10.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "CARD",
+    "rng_run": 222,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 10.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_CARD_s223_1406f467",
+   "args": [
+    "--algorithm=CARD",
+    "--rngRun=223",
+    "--rngSeed=20260905",
+    "--speed=10.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "CARD",
+    "rng_run": 223,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 10.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_CARD_s224_f9886ed8",
+   "args": [
+    "--algorithm=CARD",
+    "--rngRun=224",
+    "--rngSeed=20260905",
+    "--speed=10.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "CARD",
+    "rng_run": 224,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 10.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_CARD_s225_5bcc22df",
+   "args": [
+    "--algorithm=CARD",
+    "--rngRun=225",
+    "--rngSeed=20260905",
+    "--speed=10.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "CARD",
+    "rng_run": 225,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 10.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_CARD_s226_3b7b5bd4",
+   "args": [
+    "--algorithm=CARD",
+    "--rngRun=226",
+    "--rngSeed=20260905",
+    "--speed=10.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "CARD",
+    "rng_run": 226,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 10.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_CARD_s227_8db3a3ec",
+   "args": [
+    "--algorithm=CARD",
+    "--rngRun=227",
+    "--rngSeed=20260905",
+    "--speed=10.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "CARD",
+    "rng_run": 227,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 10.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_CARD_s228_eed60f17",
+   "args": [
+    "--algorithm=CARD",
+    "--rngRun=228",
+    "--rngSeed=20260905",
+    "--speed=10.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "CARD",
+    "rng_run": 228,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 10.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_CARD_s229_d0996a26",
+   "args": [
+    "--algorithm=CARD",
+    "--rngRun=229",
+    "--rngSeed=20260905",
+    "--speed=10.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "CARD",
+    "rng_run": 229,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 10.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_CARD_s230_dadabc0f",
+   "args": [
+    "--algorithm=CARD",
+    "--rngRun=230",
+    "--rngSeed=20260905",
+    "--speed=10.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "CARD",
+    "rng_run": 230,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 10.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_CARDNOCAUSE_s201_7b23df77",
+   "args": [
+    "--algorithm=CARD-NO-CAUSE",
+    "--rngRun=201",
+    "--rngSeed=20260905",
+    "--speed=10.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "CARD-NO-CAUSE",
+    "rng_run": 201,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 10.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_CARDNOCAUSE_s202_303a2082",
+   "args": [
+    "--algorithm=CARD-NO-CAUSE",
+    "--rngRun=202",
+    "--rngSeed=20260905",
+    "--speed=10.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "CARD-NO-CAUSE",
+    "rng_run": 202,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 10.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_CARDNOCAUSE_s203_1e635bd6",
+   "args": [
+    "--algorithm=CARD-NO-CAUSE",
+    "--rngRun=203",
+    "--rngSeed=20260905",
+    "--speed=10.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "CARD-NO-CAUSE",
+    "rng_run": 203,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 10.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_CARDNOCAUSE_s204_ec37f196",
+   "args": [
+    "--algorithm=CARD-NO-CAUSE",
+    "--rngRun=204",
+    "--rngSeed=20260905",
+    "--speed=10.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "CARD-NO-CAUSE",
+    "rng_run": 204,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 10.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_CARDNOCAUSE_s205_69b56b45",
+   "args": [
+    "--algorithm=CARD-NO-CAUSE",
+    "--rngRun=205",
+    "--rngSeed=20260905",
+    "--speed=10.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "CARD-NO-CAUSE",
+    "rng_run": 205,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 10.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_CARDNOCAUSE_s206_f5206228",
+   "args": [
+    "--algorithm=CARD-NO-CAUSE",
+    "--rngRun=206",
+    "--rngSeed=20260905",
+    "--speed=10.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "CARD-NO-CAUSE",
+    "rng_run": 206,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 10.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_CARDNOCAUSE_s207_7526287e",
+   "args": [
+    "--algorithm=CARD-NO-CAUSE",
+    "--rngRun=207",
+    "--rngSeed=20260905",
+    "--speed=10.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "CARD-NO-CAUSE",
+    "rng_run": 207,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 10.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_CARDNOCAUSE_s208_313261aa",
+   "args": [
+    "--algorithm=CARD-NO-CAUSE",
+    "--rngRun=208",
+    "--rngSeed=20260905",
+    "--speed=10.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "CARD-NO-CAUSE",
+    "rng_run": 208,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 10.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_CARDNOCAUSE_s209_f5b97f9b",
+   "args": [
+    "--algorithm=CARD-NO-CAUSE",
+    "--rngRun=209",
+    "--rngSeed=20260905",
+    "--speed=10.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "CARD-NO-CAUSE",
+    "rng_run": 209,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 10.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_CARDNOCAUSE_s210_40e11319",
+   "args": [
+    "--algorithm=CARD-NO-CAUSE",
+    "--rngRun=210",
+    "--rngSeed=20260905",
+    "--speed=10.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "CARD-NO-CAUSE",
+    "rng_run": 210,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 10.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_CARDNOCAUSE_s211_eafafc6f",
+   "args": [
+    "--algorithm=CARD-NO-CAUSE",
+    "--rngRun=211",
+    "--rngSeed=20260905",
+    "--speed=10.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "CARD-NO-CAUSE",
+    "rng_run": 211,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 10.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_CARDNOCAUSE_s212_d529e457",
+   "args": [
+    "--algorithm=CARD-NO-CAUSE",
+    "--rngRun=212",
+    "--rngSeed=20260905",
+    "--speed=10.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "CARD-NO-CAUSE",
+    "rng_run": 212,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 10.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_CARDNOCAUSE_s213_8d196aed",
+   "args": [
+    "--algorithm=CARD-NO-CAUSE",
+    "--rngRun=213",
+    "--rngSeed=20260905",
+    "--speed=10.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "CARD-NO-CAUSE",
+    "rng_run": 213,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 10.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_CARDNOCAUSE_s214_9662f165",
+   "args": [
+    "--algorithm=CARD-NO-CAUSE",
+    "--rngRun=214",
+    "--rngSeed=20260905",
+    "--speed=10.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "CARD-NO-CAUSE",
+    "rng_run": 214,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 10.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_CARDNOCAUSE_s215_56f90b4c",
+   "args": [
+    "--algorithm=CARD-NO-CAUSE",
+    "--rngRun=215",
+    "--rngSeed=20260905",
+    "--speed=10.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "CARD-NO-CAUSE",
+    "rng_run": 215,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 10.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_CARDNOCAUSE_s216_196df2f5",
+   "args": [
+    "--algorithm=CARD-NO-CAUSE",
+    "--rngRun=216",
+    "--rngSeed=20260905",
+    "--speed=10.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "CARD-NO-CAUSE",
+    "rng_run": 216,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 10.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_CARDNOCAUSE_s217_a87f61b1",
+   "args": [
+    "--algorithm=CARD-NO-CAUSE",
+    "--rngRun=217",
+    "--rngSeed=20260905",
+    "--speed=10.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "CARD-NO-CAUSE",
+    "rng_run": 217,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 10.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_CARDNOCAUSE_s218_c7cc64f7",
+   "args": [
+    "--algorithm=CARD-NO-CAUSE",
+    "--rngRun=218",
+    "--rngSeed=20260905",
+    "--speed=10.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "CARD-NO-CAUSE",
+    "rng_run": 218,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 10.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_CARDNOCAUSE_s219_8b090afe",
+   "args": [
+    "--algorithm=CARD-NO-CAUSE",
+    "--rngRun=219",
+    "--rngSeed=20260905",
+    "--speed=10.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "CARD-NO-CAUSE",
+    "rng_run": 219,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 10.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_CARDNOCAUSE_s220_c4ea9886",
+   "args": [
+    "--algorithm=CARD-NO-CAUSE",
+    "--rngRun=220",
+    "--rngSeed=20260905",
+    "--speed=10.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "CARD-NO-CAUSE",
+    "rng_run": 220,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 10.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_CARDNOCAUSE_s221_2cac5fe7",
+   "args": [
+    "--algorithm=CARD-NO-CAUSE",
+    "--rngRun=221",
+    "--rngSeed=20260905",
+    "--speed=10.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "CARD-NO-CAUSE",
+    "rng_run": 221,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 10.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_CARDNOCAUSE_s222_f4bca502",
+   "args": [
+    "--algorithm=CARD-NO-CAUSE",
+    "--rngRun=222",
+    "--rngSeed=20260905",
+    "--speed=10.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "CARD-NO-CAUSE",
+    "rng_run": 222,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 10.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_CARDNOCAUSE_s223_c6704dfd",
+   "args": [
+    "--algorithm=CARD-NO-CAUSE",
+    "--rngRun=223",
+    "--rngSeed=20260905",
+    "--speed=10.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "CARD-NO-CAUSE",
+    "rng_run": 223,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 10.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_CARDNOCAUSE_s224_82e5250b",
+   "args": [
+    "--algorithm=CARD-NO-CAUSE",
+    "--rngRun=224",
+    "--rngSeed=20260905",
+    "--speed=10.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "CARD-NO-CAUSE",
+    "rng_run": 224,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 10.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_CARDNOCAUSE_s225_0c761bbb",
+   "args": [
+    "--algorithm=CARD-NO-CAUSE",
+    "--rngRun=225",
+    "--rngSeed=20260905",
+    "--speed=10.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "CARD-NO-CAUSE",
+    "rng_run": 225,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 10.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_CARDNOCAUSE_s226_ee5e6110",
+   "args": [
+    "--algorithm=CARD-NO-CAUSE",
+    "--rngRun=226",
+    "--rngSeed=20260905",
+    "--speed=10.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "CARD-NO-CAUSE",
+    "rng_run": 226,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 10.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_CARDNOCAUSE_s227_5c6b8e09",
+   "args": [
+    "--algorithm=CARD-NO-CAUSE",
+    "--rngRun=227",
+    "--rngSeed=20260905",
+    "--speed=10.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "CARD-NO-CAUSE",
+    "rng_run": 227,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 10.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_CARDNOCAUSE_s228_dc9d6f5b",
+   "args": [
+    "--algorithm=CARD-NO-CAUSE",
+    "--rngRun=228",
+    "--rngSeed=20260905",
+    "--speed=10.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "CARD-NO-CAUSE",
+    "rng_run": 228,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 10.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_CARDNOCAUSE_s229_b188e8f5",
+   "args": [
+    "--algorithm=CARD-NO-CAUSE",
+    "--rngRun=229",
+    "--rngSeed=20260905",
+    "--speed=10.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "CARD-NO-CAUSE",
+    "rng_run": 229,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 10.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  },
+  {
+   "run_id": "f_CARDNOCAUSE_s230_88744383",
+   "args": [
+    "--algorithm=CARD-NO-CAUSE",
+    "--rngRun=230",
+    "--rngSeed=20260905",
+    "--speed=10.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out",
+    "--fading=1"
+   ],
+   "timeout_s": 1800,
+   "meta": {
+    "algorithm": "CARD-NO-CAUSE",
+    "rng_run": 230,
+    "rq": [
+     "R056"
+    ],
+    "freshness_s": 2.0,
+    "speed": 10.0,
+    "ratePps": 20.0,
+    "numFlows": 8,
+    "fading": 1,
+    "family": "mobility_fading"
+   },
+   "binary": "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe"
+  }
+ ]
+}

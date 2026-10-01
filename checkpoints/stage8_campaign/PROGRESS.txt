@@ -1,0 +1,9 @@
+campaign : stage8_campaign
+progress : [########################################] 100.0%
+runs     : 2220 done / 2220 total (0 failed)
+mean run : None s  (jobs=10)
+ETA      : unknown
+updated  : 2026-10-01T06:14:54.108760+00:00
+
+in flight : 0
+heartbeat : 2026-10-01T06:14:54.110041+00:00

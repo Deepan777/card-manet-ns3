@@ -1,0 +1,1 @@
+algorithm=OLSR scr_family=0 generated=43132 reports_accepted=1043 reports_rejected=7 confirmations=0 source_rreq=0 admitted=0 denied=0 uncharged=0 zero_delay_clamped=0 exo_hash=8290010513579729427 transport_error=0

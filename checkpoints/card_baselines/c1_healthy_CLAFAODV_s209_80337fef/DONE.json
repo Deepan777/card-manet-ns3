@@ -1,0 +1,22 @@
+{
+  "run_id": "c1_healthy_CLAFAODV_s209_80337fef",
+  "campaign": "card_baselines",
+  "argv": [
+    "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-baselines\\build\\scratch\\scr-c1-outage\\ns3.46.1-scr-c1-outage-default.exe",
+    "--algorithm=CLAF-AODV",
+    "--fault=healthy",
+    "--coldStagger=0",
+    "--rngRun=209",
+    "--rngSeed=20260905",
+    "--outPrefix=out"
+  ],
+  "returncode": 0,
+  "elapsed_s": 1513.294,
+  "completed_utc": "2026-09-26T16:28:44.559653+00:00",
+  "outputs": {
+    "out_packet_events.csv": "e360be1eff589f4a8637611ead7408d8339c04202e4bace9b16d6d4de2f38101",
+    "out_summary.csv": "5c2a941b1805301a15d18b74f37a8cd2ba36fb377cf6933528c2f849f259cbfe",
+    "stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stdout.txt": "df4aa908e0961c5e104a702fdbfc732315d89fcc0c715cf2b7cbc626eeb4730d"
+  }
+}

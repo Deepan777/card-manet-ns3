@@ -1,0 +1,26 @@
+{
+  "run_id": "c4_OLSR_s206_bdcce97a",
+  "campaign": "c4_scaling",
+  "argv": [
+    "D:/VIT Vellore Research one/Astra Adhocnetworks/vendor/ns-3-dev-ns-3.46.1/build/scratch/scr-manet/ns3.46.1-scr-manet-default.exe",
+    "--algorithm=OLSR",
+    "--rngRun=206",
+    "--rngSeed=20260905",
+    "--numNodes=90",
+    "--areaSide=857.321410",
+    "--speed=5.0",
+    "--numFlows=8",
+    "--ratePps=20.0",
+    "--payloadBytes=512",
+    "--freshnessS=2.000000",
+    "--outPrefix=out"
+  ],
+  "returncode": 0,
+  "elapsed_s": 402.484,
+  "completed_utc": "2026-09-12T20:45:32.677654+00:00",
+  "outputs": {
+    "out_summary.csv": "178a8e4a79ee816eca087ba69bf5dd0093e4cdbed44fa0c9de7e66e0e67f6a6e",
+    "stderr.txt": "5d6b8484e44d0704035db0c204dc252e9ea5ae35921d273f7f3bc281feaf5cfb",
+    "stdout.txt": "c32c9a471e1a887d3efa45c666ca6c685ab3b5cc8cbd28090713aa6dfe1ec56e"
+  }
+}

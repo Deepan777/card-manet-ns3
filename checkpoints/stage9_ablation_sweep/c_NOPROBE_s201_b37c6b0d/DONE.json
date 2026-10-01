@@ -1,0 +1,25 @@
+{
+  "run_id": "c_NOPROBE_s201_b37c6b0d",
+  "campaign": "stage9_ablation_sweep",
+  "argv": [
+    "D:/VIT Vellore Research one/Astra Adhocnetworks/vendor/ns-3-dev-ns-3.46.1/build/scratch/scr-manet/ns3.46.1-scr-manet-default.exe",
+    "--algorithm=NO-PROBE",
+    "--rngRun=201",
+    "--rngSeed=20260905",
+    "--speed=5.0",
+    "--ratePps=20.0",
+    "--numFlows=2",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out"
+  ],
+  "returncode": 0,
+  "elapsed_s": 27.184,
+  "completed_utc": "2026-09-23T15:12:35.435641+00:00",
+  "outputs": {
+    "out_packet_events.csv": "f5fd5bf1c756e0a561798b7e1f3e7f379808c83ac3b1c16731ee2846bc437064",
+    "out_summary.csv": "c72e44601a6cc6411984fe3d85503a770c51c41b018c622009dac52c9f9174fc",
+    "stderr.txt": "5d6b8484e44d0704035db0c204dc252e9ea5ae35921d273f7f3bc281feaf5cfb",
+    "stdout.txt": "c077db7c3b4487f5dd8b9d616a88b9e145fe8b3aebb364922102d5453fda5b94"
+  }
+}

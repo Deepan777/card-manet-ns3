@@ -1,0 +1,25 @@
+{
+  "run_id": "c_RESETESCALATION_s230_cfd9ac32",
+  "campaign": "stage9_ablation_sweep",
+  "argv": [
+    "D:/VIT Vellore Research one/Astra Adhocnetworks/vendor/ns-3-dev-ns-3.46.1/build/scratch/scr-manet/ns3.46.1-scr-manet-default.exe",
+    "--algorithm=RESET-ESCALATION",
+    "--rngRun=230",
+    "--rngSeed=20260905",
+    "--speed=10.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out"
+  ],
+  "returncode": 0,
+  "elapsed_s": 309.843,
+  "completed_utc": "2026-09-23T12:51:56.814269+00:00",
+  "outputs": {
+    "out_packet_events.csv": "49707f49f556047a7a67e349d47e298bf12490965ca2a921adfcfcc850788e00",
+    "out_summary.csv": "4cf5dd0e5d8f5f73563039c85063c0e6f374032cedb96469050acf187eba0c5e",
+    "stderr.txt": "5d6b8484e44d0704035db0c204dc252e9ea5ae35921d273f7f3bc281feaf5cfb",
+    "stdout.txt": "063afb344d29e3973c0f1c2d5c75afdccc013cdc2c70c5e42512b9b1c1067c12"
+  }
+}

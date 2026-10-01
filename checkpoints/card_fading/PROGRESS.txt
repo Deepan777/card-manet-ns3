@@ -1,0 +1,9 @@
+campaign : card_fading
+progress : [########################################] 100.0%
+runs     : 240 done / 240 total (0 failed)
+mean run : None s  (jobs=10)
+ETA      : unknown
+updated  : 2026-10-01T06:16:30.165080+00:00
+
+in flight : 0
+heartbeat : 2026-10-01T06:16:30.166179+00:00

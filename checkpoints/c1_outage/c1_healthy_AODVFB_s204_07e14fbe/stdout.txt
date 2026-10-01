@@ -1,0 +1,1 @@
+algorithm=AODV-FB scr_enabled=0 B=4 rho=0.2 bucket_refill=0.5 Gmax=4 lambda=2 ttl_max=35 node_traversal_ms=40 net_traversal_ms=2800 rreq_rate_limit=10 rreq_retries=2 fault=healthy generated=43132 received=28249 timely_pdr=0.560906 accepted=633 confirms=8 source_rreq=2394 relayed=40540 uncharged=0 ctrl_bytes=1785892

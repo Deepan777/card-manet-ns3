@@ -1,0 +1,1 @@
+algorithm=PERSISTENT-BACKOFF scr_enabled=1 B=4 rho=0.2 bucket_refill=0.5 Gmax=4 lambda=2 ttl_max=35 node_traversal_ms=40 net_traversal_ms=2800 rreq_rate_limit=10 rreq_retries=2 rreq_cap_legacy_equality=0 fork_rev=5 fault=repeated generated=43132 received=5561 timely_pdr=0.0207039 accepted=12 confirms=1 source_rreq=1416 relayed=51522 uncharged=0 ctrl_bytes=1956528

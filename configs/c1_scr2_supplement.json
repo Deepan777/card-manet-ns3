@@ -1,0 +1,1169 @@
+{
+ "campaign_id": "c1_scr2_supplement",
+ "purpose": "Declared supplementary arm: SCR-2 (allowance removed) on C1 at fork_rev 5, to test whether SCR's failure is explained by limiter strictness. Replaces an exploratory fork_rev-4 measurement (R031/R032).",
+ "scope_limitation": "One arm only. Pairs with c1_outage SCR and AODV-STOCK runs of the same seed and condition; those are not re-run.",
+ "outage_mechanism": "IPv4 interface down/up, NOT WifiPhy off (D006). ns-3.46.1 corrupts MAC state when SetOffMode lands during a frame exchange, which aborted the 'repeated' and 'long' patterns. Describe results as IP-layer node unavailability, not radio blackout.",
+ "endpoint_caution": "timely PDR on this topology is ~0.08 (vs ~0.32 in C2) because the two-cluster geometry forces long paths against the same 250 ms deadline. Recovery analysis (M19) is primary here; a small timely-PDR difference is NOT evidence of equivalence.",
+ "topology_validation": "min_cluster_to_cluster_m=400, direct_cross_links=0, assumed_range_m=141; reproduce with --validateTopology=1",
+ "binary": "D:/VIT Vellore Research one/Astra Adhocnetworks/vendor/ns-3-dev-ns-3.46.1/build/scratch/scr-c1-outage/ns3.46.1-scr-c1-outage-default.exe",
+ "scenario_source": "ns3/scenarios/scr-c1-outage.cc",
+ "ns3_version": "3.46.1",
+ "ns3_commit": "51387bce7e5f5c57aa080612a4ed690bf33d0c92",
+ "seeds": [
+  201,
+  202,
+  203,
+  204,
+  205,
+  206,
+  207,
+  208,
+  209,
+  210
+ ],
+ "n_per_condition": 10,
+ "n_selection_note": "FIRST PASS at n=10, declared in advance. The C2 n-selection (n=30) was derived from C2 variance and does not transfer: C1 imposes outages and its paired variance is unknown. This pass estimates s_d per condition; the registered rule 1.96*s_d/sqrt(n)<=0.02 then decides whether to extend. Seeds are the first 10 of the held-out block, so extending ADDS seeds and never rewrites these runs.",
+ "derived_from": "c1_outage; run identity via make_manifest_c1.make_run",
+ "runs": [
+  {
+   "run_id": "c1_healthy_SCR2_s201_ee70b912",
+   "args": [
+    "--algorithm=SCR2",
+    "--fault=healthy",
+    "--coldStagger=0",
+    "--rngRun=201",
+    "--rngSeed=20260905",
+    "--outPrefix=out"
+   ],
+   "timeout_s": 3600,
+   "meta": {
+    "algorithm": "SCR2",
+    "rng_run": 201,
+    "condition": "healthy",
+    "fault": "healthy",
+    "cold_stagger": 0
+   }
+  },
+  {
+   "run_id": "c1_healthy_SCR2_s202_2b409758",
+   "args": [
+    "--algorithm=SCR2",
+    "--fault=healthy",
+    "--coldStagger=0",
+    "--rngRun=202",
+    "--rngSeed=20260905",
+    "--outPrefix=out"
+   ],
+   "timeout_s": 3600,
+   "meta": {
+    "algorithm": "SCR2",
+    "rng_run": 202,
+    "condition": "healthy",
+    "fault": "healthy",
+    "cold_stagger": 0
+   }
+  },
+  {
+   "run_id": "c1_healthy_SCR2_s203_ffb3b86b",
+   "args": [
+    "--algorithm=SCR2",
+    "--fault=healthy",
+    "--coldStagger=0",
+    "--rngRun=203",
+    "--rngSeed=20260905",
+    "--outPrefix=out"
+   ],
+   "timeout_s": 3600,
+   "meta": {
+    "algorithm": "SCR2",
+    "rng_run": 203,
+    "condition": "healthy",
+    "fault": "healthy",
+    "cold_stagger": 0
+   }
+  },
+  {
+   "run_id": "c1_healthy_SCR2_s204_5faebce0",
+   "args": [
+    "--algorithm=SCR2",
+    "--fault=healthy",
+    "--coldStagger=0",
+    "--rngRun=204",
+    "--rngSeed=20260905",
+    "--outPrefix=out"
+   ],
+   "timeout_s": 3600,
+   "meta": {
+    "algorithm": "SCR2",
+    "rng_run": 204,
+    "condition": "healthy",
+    "fault": "healthy",
+    "cold_stagger": 0
+   }
+  },
+  {
+   "run_id": "c1_healthy_SCR2_s205_204cb230",
+   "args": [
+    "--algorithm=SCR2",
+    "--fault=healthy",
+    "--coldStagger=0",
+    "--rngRun=205",
+    "--rngSeed=20260905",
+    "--outPrefix=out"
+   ],
+   "timeout_s": 3600,
+   "meta": {
+    "algorithm": "SCR2",
+    "rng_run": 205,
+    "condition": "healthy",
+    "fault": "healthy",
+    "cold_stagger": 0
+   }
+  },
+  {
+   "run_id": "c1_healthy_SCR2_s206_ec529106",
+   "args": [
+    "--algorithm=SCR2",
+    "--fault=healthy",
+    "--coldStagger=0",
+    "--rngRun=206",
+    "--rngSeed=20260905",
+    "--outPrefix=out"
+   ],
+   "timeout_s": 3600,
+   "meta": {
+    "algorithm": "SCR2",
+    "rng_run": 206,
+    "condition": "healthy",
+    "fault": "healthy",
+    "cold_stagger": 0
+   }
+  },
+  {
+   "run_id": "c1_healthy_SCR2_s207_4e5edca4",
+   "args": [
+    "--algorithm=SCR2",
+    "--fault=healthy",
+    "--coldStagger=0",
+    "--rngRun=207",
+    "--rngSeed=20260905",
+    "--outPrefix=out"
+   ],
+   "timeout_s": 3600,
+   "meta": {
+    "algorithm": "SCR2",
+    "rng_run": 207,
+    "condition": "healthy",
+    "fault": "healthy",
+    "cold_stagger": 0
+   }
+  },
+  {
+   "run_id": "c1_healthy_SCR2_s208_83597681",
+   "args": [
+    "--algorithm=SCR2",
+    "--fault=healthy",
+    "--coldStagger=0",
+    "--rngRun=208",
+    "--rngSeed=20260905",
+    "--outPrefix=out"
+   ],
+   "timeout_s": 3600,
+   "meta": {
+    "algorithm": "SCR2",
+    "rng_run": 208,
+    "condition": "healthy",
+    "fault": "healthy",
+    "cold_stagger": 0
+   }
+  },
+  {
+   "run_id": "c1_healthy_SCR2_s209_ca3d4f72",
+   "args": [
+    "--algorithm=SCR2",
+    "--fault=healthy",
+    "--coldStagger=0",
+    "--rngRun=209",
+    "--rngSeed=20260905",
+    "--outPrefix=out"
+   ],
+   "timeout_s": 3600,
+   "meta": {
+    "algorithm": "SCR2",
+    "rng_run": 209,
+    "condition": "healthy",
+    "fault": "healthy",
+    "cold_stagger": 0
+   }
+  },
+  {
+   "run_id": "c1_healthy_SCR2_s210_b2e2309a",
+   "args": [
+    "--algorithm=SCR2",
+    "--fault=healthy",
+    "--coldStagger=0",
+    "--rngRun=210",
+    "--rngSeed=20260905",
+    "--outPrefix=out"
+   ],
+   "timeout_s": 3600,
+   "meta": {
+    "algorithm": "SCR2",
+    "rng_run": 210,
+    "condition": "healthy",
+    "fault": "healthy",
+    "cold_stagger": 0
+   }
+  },
+  {
+   "run_id": "c1_single_SCR2_s201_917dd79c",
+   "args": [
+    "--algorithm=SCR2",
+    "--fault=single",
+    "--coldStagger=0",
+    "--rngRun=201",
+    "--rngSeed=20260905",
+    "--outPrefix=out"
+   ],
+   "timeout_s": 3600,
+   "meta": {
+    "algorithm": "SCR2",
+    "rng_run": 201,
+    "condition": "single",
+    "fault": "single",
+    "cold_stagger": 0
+   }
+  },
+  {
+   "run_id": "c1_single_SCR2_s202_48e6b562",
+   "args": [
+    "--algorithm=SCR2",
+    "--fault=single",
+    "--coldStagger=0",
+    "--rngRun=202",
+    "--rngSeed=20260905",
+    "--outPrefix=out"
+   ],
+   "timeout_s": 3600,
+   "meta": {
+    "algorithm": "SCR2",
+    "rng_run": 202,
+    "condition": "single",
+    "fault": "single",
+    "cold_stagger": 0
+   }
+  },
+  {
+   "run_id": "c1_single_SCR2_s203_4bfee861",
+   "args": [
+    "--algorithm=SCR2",
+    "--fault=single",
+    "--coldStagger=0",
+    "--rngRun=203",
+    "--rngSeed=20260905",
+    "--outPrefix=out"
+   ],
+   "timeout_s": 3600,
+   "meta": {
+    "algorithm": "SCR2",
+    "rng_run": 203,
+    "condition": "single",
+    "fault": "single",
+    "cold_stagger": 0
+   }
+  },
+  {
+   "run_id": "c1_single_SCR2_s204_e2f3b017",
+   "args": [
+    "--algorithm=SCR2",
+    "--fault=single",
+    "--coldStagger=0",
+    "--rngRun=204",
+    "--rngSeed=20260905",
+    "--outPrefix=out"
+   ],
+   "timeout_s": 3600,
+   "meta": {
+    "algorithm": "SCR2",
+    "rng_run": 204,
+    "condition": "single",
+    "fault": "single",
+    "cold_stagger": 0
+   }
+  },
+  {
+   "run_id": "c1_single_SCR2_s205_56466d50",
+   "args": [
+    "--algorithm=SCR2",
+    "--fault=single",
+    "--coldStagger=0",
+    "--rngRun=205",
+    "--rngSeed=20260905",
+    "--outPrefix=out"
+   ],
+   "timeout_s": 3600,
+   "meta": {
+    "algorithm": "SCR2",
+    "rng_run": 205,
+    "condition": "single",
+    "fault": "single",
+    "cold_stagger": 0
+   }
+  },
+  {
+   "run_id": "c1_single_SCR2_s206_18a43cbb",
+   "args": [
+    "--algorithm=SCR2",
+    "--fault=single",
+    "--coldStagger=0",
+    "--rngRun=206",
+    "--rngSeed=20260905",
+    "--outPrefix=out"
+   ],
+   "timeout_s": 3600,
+   "meta": {
+    "algorithm": "SCR2",
+    "rng_run": 206,
+    "condition": "single",
+    "fault": "single",
+    "cold_stagger": 0
+   }
+  },
+  {
+   "run_id": "c1_single_SCR2_s207_3804e8fa",
+   "args": [
+    "--algorithm=SCR2",
+    "--fault=single",
+    "--coldStagger=0",
+    "--rngRun=207",
+    "--rngSeed=20260905",
+    "--outPrefix=out"
+   ],
+   "timeout_s": 3600,
+   "meta": {
+    "algorithm": "SCR2",
+    "rng_run": 207,
+    "condition": "single",
+    "fault": "single",
+    "cold_stagger": 0
+   }
+  },
+  {
+   "run_id": "c1_single_SCR2_s208_37a368f9",
+   "args": [
+    "--algorithm=SCR2",
+    "--fault=single",
+    "--coldStagger=0",
+    "--rngRun=208",
+    "--rngSeed=20260905",
+    "--outPrefix=out"
+   ],
+   "timeout_s": 3600,
+   "meta": {
+    "algorithm": "SCR2",
+    "rng_run": 208,
+    "condition": "single",
+    "fault": "single",
+    "cold_stagger": 0
+   }
+  },
+  {
+   "run_id": "c1_single_SCR2_s209_e45ee9a4",
+   "args": [
+    "--algorithm=SCR2",
+    "--fault=single",
+    "--coldStagger=0",
+    "--rngRun=209",
+    "--rngSeed=20260905",
+    "--outPrefix=out"
+   ],
+   "timeout_s": 3600,
+   "meta": {
+    "algorithm": "SCR2",
+    "rng_run": 209,
+    "condition": "single",
+    "fault": "single",
+    "cold_stagger": 0
+   }
+  },
+  {
+   "run_id": "c1_single_SCR2_s210_10823569",
+   "args": [
+    "--algorithm=SCR2",
+    "--fault=single",
+    "--coldStagger=0",
+    "--rngRun=210",
+    "--rngSeed=20260905",
+    "--outPrefix=out"
+   ],
+   "timeout_s": 3600,
+   "meta": {
+    "algorithm": "SCR2",
+    "rng_run": 210,
+    "condition": "single",
+    "fault": "single",
+    "cold_stagger": 0
+   }
+  },
+  {
+   "run_id": "c1_repeated_SCR2_s201_df2216ba",
+   "args": [
+    "--algorithm=SCR2",
+    "--fault=repeated",
+    "--coldStagger=0",
+    "--rngRun=201",
+    "--rngSeed=20260905",
+    "--outPrefix=out"
+   ],
+   "timeout_s": 3600,
+   "meta": {
+    "algorithm": "SCR2",
+    "rng_run": 201,
+    "condition": "repeated",
+    "fault": "repeated",
+    "cold_stagger": 0
+   }
+  },
+  {
+   "run_id": "c1_repeated_SCR2_s202_d0ccd5c1",
+   "args": [
+    "--algorithm=SCR2",
+    "--fault=repeated",
+    "--coldStagger=0",
+    "--rngRun=202",
+    "--rngSeed=20260905",
+    "--outPrefix=out"
+   ],
+   "timeout_s": 3600,
+   "meta": {
+    "algorithm": "SCR2",
+    "rng_run": 202,
+    "condition": "repeated",
+    "fault": "repeated",
+    "cold_stagger": 0
+   }
+  },
+  {
+   "run_id": "c1_repeated_SCR2_s203_d9761906",
+   "args": [
+    "--algorithm=SCR2",
+    "--fault=repeated",
+    "--coldStagger=0",
+    "--rngRun=203",
+    "--rngSeed=20260905",
+    "--outPrefix=out"
+   ],
+   "timeout_s": 3600,
+   "meta": {
+    "algorithm": "SCR2",
+    "rng_run": 203,
+    "condition": "repeated",
+    "fault": "repeated",
+    "cold_stagger": 0
+   }
+  },
+  {
+   "run_id": "c1_repeated_SCR2_s204_f19c9201",
+   "args": [
+    "--algorithm=SCR2",
+    "--fault=repeated",
+    "--coldStagger=0",
+    "--rngRun=204",
+    "--rngSeed=20260905",
+    "--outPrefix=out"
+   ],
+   "timeout_s": 3600,
+   "meta": {
+    "algorithm": "SCR2",
+    "rng_run": 204,
+    "condition": "repeated",
+    "fault": "repeated",
+    "cold_stagger": 0
+   }
+  },
+  {
+   "run_id": "c1_repeated_SCR2_s205_d741a0f0",
+   "args": [
+    "--algorithm=SCR2",
+    "--fault=repeated",
+    "--coldStagger=0",
+    "--rngRun=205",
+    "--rngSeed=20260905",
+    "--outPrefix=out"
+   ],
+   "timeout_s": 3600,
+   "meta": {
+    "algorithm": "SCR2",
+    "rng_run": 205,
+    "condition": "repeated",
+    "fault": "repeated",
+    "cold_stagger": 0
+   }
+  },
+  {
+   "run_id": "c1_repeated_SCR2_s206_e94330c7",
+   "args": [
+    "--algorithm=SCR2",
+    "--fault=repeated",
+    "--coldStagger=0",
+    "--rngRun=206",
+    "--rngSeed=20260905",
+    "--outPrefix=out"
+   ],
+   "timeout_s": 3600,
+   "meta": {
+    "algorithm": "SCR2",
+    "rng_run": 206,
+    "condition": "repeated",
+    "fault": "repeated",
+    "cold_stagger": 0
+   }
+  },
+  {
+   "run_id": "c1_repeated_SCR2_s207_e7b3d531",
+   "args": [
+    "--algorithm=SCR2",
+    "--fault=repeated",
+    "--coldStagger=0",
+    "--rngRun=207",
+    "--rngSeed=20260905",
+    "--outPrefix=out"
+   ],
+   "timeout_s": 3600,
+   "meta": {
+    "algorithm": "SCR2",
+    "rng_run": 207,
+    "condition": "repeated",
+    "fault": "repeated",
+    "cold_stagger": 0
+   }
+  },
+  {
+   "run_id": "c1_repeated_SCR2_s208_bd47d67e",
+   "args": [
+    "--algorithm=SCR2",
+    "--fault=repeated",
+    "--coldStagger=0",
+    "--rngRun=208",
+    "--rngSeed=20260905",
+    "--outPrefix=out"
+   ],
+   "timeout_s": 3600,
+   "meta": {
+    "algorithm": "SCR2",
+    "rng_run": 208,
+    "condition": "repeated",
+    "fault": "repeated",
+    "cold_stagger": 0
+   }
+  },
+  {
+   "run_id": "c1_repeated_SCR2_s209_e458b0b6",
+   "args": [
+    "--algorithm=SCR2",
+    "--fault=repeated",
+    "--coldStagger=0",
+    "--rngRun=209",
+    "--rngSeed=20260905",
+    "--outPrefix=out"
+   ],
+   "timeout_s": 3600,
+   "meta": {
+    "algorithm": "SCR2",
+    "rng_run": 209,
+    "condition": "repeated",
+    "fault": "repeated",
+    "cold_stagger": 0
+   }
+  },
+  {
+   "run_id": "c1_repeated_SCR2_s210_ae2ec019",
+   "args": [
+    "--algorithm=SCR2",
+    "--fault=repeated",
+    "--coldStagger=0",
+    "--rngRun=210",
+    "--rngSeed=20260905",
+    "--outPrefix=out"
+   ],
+   "timeout_s": 3600,
+   "meta": {
+    "algorithm": "SCR2",
+    "rng_run": 210,
+    "condition": "repeated",
+    "fault": "repeated",
+    "cold_stagger": 0
+   }
+  },
+  {
+   "run_id": "c1_long_SCR2_s201_dbdf7c41",
+   "args": [
+    "--algorithm=SCR2",
+    "--fault=long",
+    "--coldStagger=0",
+    "--rngRun=201",
+    "--rngSeed=20260905",
+    "--outPrefix=out"
+   ],
+   "timeout_s": 3600,
+   "meta": {
+    "algorithm": "SCR2",
+    "rng_run": 201,
+    "condition": "long",
+    "fault": "long",
+    "cold_stagger": 0
+   }
+  },
+  {
+   "run_id": "c1_long_SCR2_s202_4d03d313",
+   "args": [
+    "--algorithm=SCR2",
+    "--fault=long",
+    "--coldStagger=0",
+    "--rngRun=202",
+    "--rngSeed=20260905",
+    "--outPrefix=out"
+   ],
+   "timeout_s": 3600,
+   "meta": {
+    "algorithm": "SCR2",
+    "rng_run": 202,
+    "condition": "long",
+    "fault": "long",
+    "cold_stagger": 0
+   }
+  },
+  {
+   "run_id": "c1_long_SCR2_s203_34df3063",
+   "args": [
+    "--algorithm=SCR2",
+    "--fault=long",
+    "--coldStagger=0",
+    "--rngRun=203",
+    "--rngSeed=20260905",
+    "--outPrefix=out"
+   ],
+   "timeout_s": 3600,
+   "meta": {
+    "algorithm": "SCR2",
+    "rng_run": 203,
+    "condition": "long",
+    "fault": "long",
+    "cold_stagger": 0
+   }
+  },
+  {
+   "run_id": "c1_long_SCR2_s204_7a9c1a1b",
+   "args": [
+    "--algorithm=SCR2",
+    "--fault=long",
+    "--coldStagger=0",
+    "--rngRun=204",
+    "--rngSeed=20260905",
+    "--outPrefix=out"
+   ],
+   "timeout_s": 3600,
+   "meta": {
+    "algorithm": "SCR2",
+    "rng_run": 204,
+    "condition": "long",
+    "fault": "long",
+    "cold_stagger": 0
+   }
+  },
+  {
+   "run_id": "c1_long_SCR2_s205_e32c357d",
+   "args": [
+    "--algorithm=SCR2",
+    "--fault=long",
+    "--coldStagger=0",
+    "--rngRun=205",
+    "--rngSeed=20260905",
+    "--outPrefix=out"
+   ],
+   "timeout_s": 3600,
+   "meta": {
+    "algorithm": "SCR2",
+    "rng_run": 205,
+    "condition": "long",
+    "fault": "long",
+    "cold_stagger": 0
+   }
+  },
+  {
+   "run_id": "c1_long_SCR2_s206_8b1cecb7",
+   "args": [
+    "--algorithm=SCR2",
+    "--fault=long",
+    "--coldStagger=0",
+    "--rngRun=206",
+    "--rngSeed=20260905",
+    "--outPrefix=out"
+   ],
+   "timeout_s": 3600,
+   "meta": {
+    "algorithm": "SCR2",
+    "rng_run": 206,
+    "condition": "long",
+    "fault": "long",
+    "cold_stagger": 0
+   }
+  },
+  {
+   "run_id": "c1_long_SCR2_s207_da33c11b",
+   "args": [
+    "--algorithm=SCR2",
+    "--fault=long",
+    "--coldStagger=0",
+    "--rngRun=207",
+    "--rngSeed=20260905",
+    "--outPrefix=out"
+   ],
+   "timeout_s": 3600,
+   "meta": {
+    "algorithm": "SCR2",
+    "rng_run": 207,
+    "condition": "long",
+    "fault": "long",
+    "cold_stagger": 0
+   }
+  },
+  {
+   "run_id": "c1_long_SCR2_s208_926659c0",
+   "args": [
+    "--algorithm=SCR2",
+    "--fault=long",
+    "--coldStagger=0",
+    "--rngRun=208",
+    "--rngSeed=20260905",
+    "--outPrefix=out"
+   ],
+   "timeout_s": 3600,
+   "meta": {
+    "algorithm": "SCR2",
+    "rng_run": 208,
+    "condition": "long",
+    "fault": "long",
+    "cold_stagger": 0
+   }
+  },
+  {
+   "run_id": "c1_long_SCR2_s209_e1f702c3",
+   "args": [
+    "--algorithm=SCR2",
+    "--fault=long",
+    "--coldStagger=0",
+    "--rngRun=209",
+    "--rngSeed=20260905",
+    "--outPrefix=out"
+   ],
+   "timeout_s": 3600,
+   "meta": {
+    "algorithm": "SCR2",
+    "rng_run": 209,
+    "condition": "long",
+    "fault": "long",
+    "cold_stagger": 0
+   }
+  },
+  {
+   "run_id": "c1_long_SCR2_s210_592ec876",
+   "args": [
+    "--algorithm=SCR2",
+    "--fault=long",
+    "--coldStagger=0",
+    "--rngRun=210",
+    "--rngSeed=20260905",
+    "--outPrefix=out"
+   ],
+   "timeout_s": 3600,
+   "meta": {
+    "algorithm": "SCR2",
+    "rng_run": 210,
+    "condition": "long",
+    "fault": "long",
+    "cold_stagger": 0
+   }
+  },
+  {
+   "run_id": "c1_cold_SCR2_s201_0517a880",
+   "args": [
+    "--algorithm=SCR2",
+    "--fault=cold",
+    "--coldStagger=0",
+    "--rngRun=201",
+    "--rngSeed=20260905",
+    "--outPrefix=out"
+   ],
+   "timeout_s": 3600,
+   "meta": {
+    "algorithm": "SCR2",
+    "rng_run": 201,
+    "condition": "cold",
+    "fault": "cold",
+    "cold_stagger": 0
+   }
+  },
+  {
+   "run_id": "c1_cold_SCR2_s202_beafb293",
+   "args": [
+    "--algorithm=SCR2",
+    "--fault=cold",
+    "--coldStagger=0",
+    "--rngRun=202",
+    "--rngSeed=20260905",
+    "--outPrefix=out"
+   ],
+   "timeout_s": 3600,
+   "meta": {
+    "algorithm": "SCR2",
+    "rng_run": 202,
+    "condition": "cold",
+    "fault": "cold",
+    "cold_stagger": 0
+   }
+  },
+  {
+   "run_id": "c1_cold_SCR2_s203_7551f278",
+   "args": [
+    "--algorithm=SCR2",
+    "--fault=cold",
+    "--coldStagger=0",
+    "--rngRun=203",
+    "--rngSeed=20260905",
+    "--outPrefix=out"
+   ],
+   "timeout_s": 3600,
+   "meta": {
+    "algorithm": "SCR2",
+    "rng_run": 203,
+    "condition": "cold",
+    "fault": "cold",
+    "cold_stagger": 0
+   }
+  },
+  {
+   "run_id": "c1_cold_SCR2_s204_cc91b17e",
+   "args": [
+    "--algorithm=SCR2",
+    "--fault=cold",
+    "--coldStagger=0",
+    "--rngRun=204",
+    "--rngSeed=20260905",
+    "--outPrefix=out"
+   ],
+   "timeout_s": 3600,
+   "meta": {
+    "algorithm": "SCR2",
+    "rng_run": 204,
+    "condition": "cold",
+    "fault": "cold",
+    "cold_stagger": 0
+   }
+  },
+  {
+   "run_id": "c1_cold_SCR2_s205_9278ba98",
+   "args": [
+    "--algorithm=SCR2",
+    "--fault=cold",
+    "--coldStagger=0",
+    "--rngRun=205",
+    "--rngSeed=20260905",
+    "--outPrefix=out"
+   ],
+   "timeout_s": 3600,
+   "meta": {
+    "algorithm": "SCR2",
+    "rng_run": 205,
+    "condition": "cold",
+    "fault": "cold",
+    "cold_stagger": 0
+   }
+  },
+  {
+   "run_id": "c1_cold_SCR2_s206_fbc5ad09",
+   "args": [
+    "--algorithm=SCR2",
+    "--fault=cold",
+    "--coldStagger=0",
+    "--rngRun=206",
+    "--rngSeed=20260905",
+    "--outPrefix=out"
+   ],
+   "timeout_s": 3600,
+   "meta": {
+    "algorithm": "SCR2",
+    "rng_run": 206,
+    "condition": "cold",
+    "fault": "cold",
+    "cold_stagger": 0
+   }
+  },
+  {
+   "run_id": "c1_cold_SCR2_s207_04487302",
+   "args": [
+    "--algorithm=SCR2",
+    "--fault=cold",
+    "--coldStagger=0",
+    "--rngRun=207",
+    "--rngSeed=20260905",
+    "--outPrefix=out"
+   ],
+   "timeout_s": 3600,
+   "meta": {
+    "algorithm": "SCR2",
+    "rng_run": 207,
+    "condition": "cold",
+    "fault": "cold",
+    "cold_stagger": 0
+   }
+  },
+  {
+   "run_id": "c1_cold_SCR2_s208_c7a2f4ae",
+   "args": [
+    "--algorithm=SCR2",
+    "--fault=cold",
+    "--coldStagger=0",
+    "--rngRun=208",
+    "--rngSeed=20260905",
+    "--outPrefix=out"
+   ],
+   "timeout_s": 3600,
+   "meta": {
+    "algorithm": "SCR2",
+    "rng_run": 208,
+    "condition": "cold",
+    "fault": "cold",
+    "cold_stagger": 0
+   }
+  },
+  {
+   "run_id": "c1_cold_SCR2_s209_4d9171cc",
+   "args": [
+    "--algorithm=SCR2",
+    "--fault=cold",
+    "--coldStagger=0",
+    "--rngRun=209",
+    "--rngSeed=20260905",
+    "--outPrefix=out"
+   ],
+   "timeout_s": 3600,
+   "meta": {
+    "algorithm": "SCR2",
+    "rng_run": 209,
+    "condition": "cold",
+    "fault": "cold",
+    "cold_stagger": 0
+   }
+  },
+  {
+   "run_id": "c1_cold_SCR2_s210_2634a102",
+   "args": [
+    "--algorithm=SCR2",
+    "--fault=cold",
+    "--coldStagger=0",
+    "--rngRun=210",
+    "--rngSeed=20260905",
+    "--outPrefix=out"
+   ],
+   "timeout_s": 3600,
+   "meta": {
+    "algorithm": "SCR2",
+    "rng_run": 210,
+    "condition": "cold",
+    "fault": "cold",
+    "cold_stagger": 0
+   }
+  },
+  {
+   "run_id": "c1_cold_staggered_SCR2_s201_e2da2798",
+   "args": [
+    "--algorithm=SCR2",
+    "--fault=cold",
+    "--coldStagger=1",
+    "--rngRun=201",
+    "--rngSeed=20260905",
+    "--outPrefix=out"
+   ],
+   "timeout_s": 3600,
+   "meta": {
+    "algorithm": "SCR2",
+    "rng_run": 201,
+    "condition": "cold_staggered",
+    "fault": "cold",
+    "cold_stagger": 1
+   }
+  },
+  {
+   "run_id": "c1_cold_staggered_SCR2_s202_7b26d43b",
+   "args": [
+    "--algorithm=SCR2",
+    "--fault=cold",
+    "--coldStagger=1",
+    "--rngRun=202",
+    "--rngSeed=20260905",
+    "--outPrefix=out"
+   ],
+   "timeout_s": 3600,
+   "meta": {
+    "algorithm": "SCR2",
+    "rng_run": 202,
+    "condition": "cold_staggered",
+    "fault": "cold",
+    "cold_stagger": 1
+   }
+  },
+  {
+   "run_id": "c1_cold_staggered_SCR2_s203_b1a6bd5e",
+   "args": [
+    "--algorithm=SCR2",
+    "--fault=cold",
+    "--coldStagger=1",
+    "--rngRun=203",
+    "--rngSeed=20260905",
+    "--outPrefix=out"
+   ],
+   "timeout_s": 3600,
+   "meta": {
+    "algorithm": "SCR2",
+    "rng_run": 203,
+    "condition": "cold_staggered",
+    "fault": "cold",
+    "cold_stagger": 1
+   }
+  },
+  {
+   "run_id": "c1_cold_staggered_SCR2_s204_c9b2a5ff",
+   "args": [
+    "--algorithm=SCR2",
+    "--fault=cold",
+    "--coldStagger=1",
+    "--rngRun=204",
+    "--rngSeed=20260905",
+    "--outPrefix=out"
+   ],
+   "timeout_s": 3600,
+   "meta": {
+    "algorithm": "SCR2",
+    "rng_run": 204,
+    "condition": "cold_staggered",
+    "fault": "cold",
+    "cold_stagger": 1
+   }
+  },
+  {
+   "run_id": "c1_cold_staggered_SCR2_s205_41945ed2",
+   "args": [
+    "--algorithm=SCR2",
+    "--fault=cold",
+    "--coldStagger=1",
+    "--rngRun=205",
+    "--rngSeed=20260905",
+    "--outPrefix=out"
+   ],
+   "timeout_s": 3600,
+   "meta": {
+    "algorithm": "SCR2",
+    "rng_run": 205,
+    "condition": "cold_staggered",
+    "fault": "cold",
+    "cold_stagger": 1
+   }
+  },
+  {
+   "run_id": "c1_cold_staggered_SCR2_s206_fbd6f69e",
+   "args": [
+    "--algorithm=SCR2",
+    "--fault=cold",
+    "--coldStagger=1",
+    "--rngRun=206",
+    "--rngSeed=20260905",
+    "--outPrefix=out"
+   ],
+   "timeout_s": 3600,
+   "meta": {
+    "algorithm": "SCR2",
+    "rng_run": 206,
+    "condition": "cold_staggered",
+    "fault": "cold",
+    "cold_stagger": 1
+   }
+  },
+  {
+   "run_id": "c1_cold_staggered_SCR2_s207_042f01f3",
+   "args": [
+    "--algorithm=SCR2",
+    "--fault=cold",
+    "--coldStagger=1",
+    "--rngRun=207",
+    "--rngSeed=20260905",
+    "--outPrefix=out"
+   ],
+   "timeout_s": 3600,
+   "meta": {
+    "algorithm": "SCR2",
+    "rng_run": 207,
+    "condition": "cold_staggered",
+    "fault": "cold",
+    "cold_stagger": 1
+   }
+  },
+  {
+   "run_id": "c1_cold_staggered_SCR2_s208_229a08c2",
+   "args": [
+    "--algorithm=SCR2",
+    "--fault=cold",
+    "--coldStagger=1",
+    "--rngRun=208",
+    "--rngSeed=20260905",
+    "--outPrefix=out"
+   ],
+   "timeout_s": 3600,
+   "meta": {
+    "algorithm": "SCR2",
+    "rng_run": 208,
+    "condition": "cold_staggered",
+    "fault": "cold",
+    "cold_stagger": 1
+   }
+  },
+  {
+   "run_id": "c1_cold_staggered_SCR2_s209_88b04e5e",
+   "args": [
+    "--algorithm=SCR2",
+    "--fault=cold",
+    "--coldStagger=1",
+    "--rngRun=209",
+    "--rngSeed=20260905",
+    "--outPrefix=out"
+   ],
+   "timeout_s": 3600,
+   "meta": {
+    "algorithm": "SCR2",
+    "rng_run": 209,
+    "condition": "cold_staggered",
+    "fault": "cold",
+    "cold_stagger": 1
+   }
+  },
+  {
+   "run_id": "c1_cold_staggered_SCR2_s210_e381d18f",
+   "args": [
+    "--algorithm=SCR2",
+    "--fault=cold",
+    "--coldStagger=1",
+    "--rngRun=210",
+    "--rngSeed=20260905",
+    "--outPrefix=out"
+   ],
+   "timeout_s": 3600,
+   "meta": {
+    "algorithm": "SCR2",
+    "rng_run": 210,
+    "condition": "cold_staggered",
+    "fault": "cold",
+    "cold_stagger": 1
+   }
+  }
+ ]
+}

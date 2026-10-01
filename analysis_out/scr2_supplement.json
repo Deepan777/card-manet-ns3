@@ -1,0 +1,636 @@
+{
+ "per_condition": {
+  "cold/stagger=0": {
+   "paired": {
+    "SCR2 - AODV-STOCK: timely": {
+     "n": 10,
+     "mean": -0.0604,
+     "ci95": [
+      -0.1012,
+      -0.0211
+     ],
+     "sign_p": 0.02148
+    },
+    "SCR2 - AODV-STOCK: bytes_per_pkt": {
+     "n": 10,
+     "mean": 8.6731,
+     "ci95": [
+      4.0973,
+      13.3339
+     ],
+     "sign_p": 0.02148
+    },
+    "SCR2 - AODV-STOCK: originations": {
+     "n": 10,
+     "mean": 126.3,
+     "ci95": [
+      -78.1,
+      332.1
+     ],
+     "sign_p": 0.34375
+    },
+    "SCR2 - AODV-STOCK: service_confirmations": {
+     "n": 10,
+     "mean": 31.2,
+     "ci95": [
+      26.8,
+      35.6
+     ],
+     "sign_p": 0.00195
+    },
+    "SCR2 - SCR: timely": {
+     "n": 10,
+     "mean": 0.3137,
+     "ci95": [
+      0.3016,
+      0.3254
+     ],
+     "sign_p": 0.00195
+    },
+    "SCR2 - SCR: bytes_per_pkt": {
+     "n": 10,
+     "mean": 20.1005,
+     "ci95": [
+      17.8272,
+      22.5461
+     ],
+     "sign_p": 0.00195
+    },
+    "SCR2 - SCR: originations": {
+     "n": 10,
+     "mean": 917.5,
+     "ci95": [
+      839.8,
+      1001.0
+     ],
+     "sign_p": 0.00195
+    },
+    "SCR2 - SCR: service_confirmations": {
+     "n": 10,
+     "mean": 27.8,
+     "ci95": [
+      24.3,
+      31.5
+     ],
+     "sign_p": 0.00195
+    }
+   },
+   "absolute": {
+    "AODV-STOCK timely": 0.4367,
+    "AODV-STOCK bytes_per_pkt": 49.7758,
+    "AODV-STOCK originations": 1761.6,
+    "SCR timely": 0.0626,
+    "SCR bytes_per_pkt": 38.3483,
+    "SCR originations": 970.4,
+    "SCR2 timely": 0.3763,
+    "SCR2 bytes_per_pkt": 58.4488,
+    "SCR2 originations": 1887.9,
+    "RREP-RESET timely": 0.5196,
+    "RREP-RESET bytes_per_pkt": 32.2953,
+    "RREP-RESET originations": 1419.8
+   }
+  },
+  "cold/stagger=1": {
+   "paired": {
+    "SCR2 - AODV-STOCK: timely": {
+     "n": 10,
+     "mean": -0.0831,
+     "ci95": [
+      -0.132,
+      -0.0316
+     ],
+     "sign_p": 0.34375
+    },
+    "SCR2 - AODV-STOCK: bytes_per_pkt": {
+     "n": 10,
+     "mean": 14.133,
+     "ci95": [
+      8.6534,
+      19.365
+     ],
+     "sign_p": 0.02148
+    },
+    "SCR2 - AODV-STOCK: originations": {
+     "n": 10,
+     "mean": 300.8,
+     "ci95": [
+      58.7,
+      535.4
+     ],
+     "sign_p": 0.10938
+    },
+    "SCR2 - AODV-STOCK: service_confirmations": {
+     "n": 10,
+     "mean": 35.8,
+     "ci95": [
+      32.6,
+      39.0
+     ],
+     "sign_p": 0.00195
+    },
+    "SCR2 - SCR: timely": {
+     "n": 10,
+     "mean": 0.3083,
+     "ci95": [
+      0.2785,
+      0.3421
+     ],
+     "sign_p": 0.00195
+    },
+    "SCR2 - SCR: bytes_per_pkt": {
+     "n": 10,
+     "mean": 25.3379,
+     "ci95": [
+      21.6399,
+      28.9106
+     ],
+     "sign_p": 0.00195
+    },
+    "SCR2 - SCR: originations": {
+     "n": 10,
+     "mean": 1061.7,
+     "ci95": [
+      936.0,
+      1185.3
+     ],
+     "sign_p": 0.00195
+    },
+    "SCR2 - SCR: service_confirmations": {
+     "n": 10,
+     "mean": 33.5,
+     "ci95": [
+      30.3,
+      36.6
+     ],
+     "sign_p": 0.00195
+    }
+   },
+   "absolute": {
+    "AODV-STOCK timely": 0.4506,
+    "AODV-STOCK bytes_per_pkt": 50.9086,
+    "AODV-STOCK originations": 1808.0,
+    "SCR timely": 0.0591,
+    "SCR bytes_per_pkt": 39.7037,
+    "SCR originations": 1047.1,
+    "SCR2 timely": 0.3674,
+    "SCR2 bytes_per_pkt": 65.0416,
+    "SCR2 originations": 2108.8,
+    "RREP-RESET timely": 0.5904,
+    "RREP-RESET bytes_per_pkt": 32.3559,
+    "RREP-RESET originations": 1466.0
+   }
+  },
+  "healthy/stagger=0": {
+   "paired": {
+    "SCR2 - AODV-STOCK: timely": {
+     "n": 10,
+     "mean": -0.1111,
+     "ci95": [
+      -0.1487,
+      -0.0715
+     ],
+     "sign_p": 0.02148
+    },
+    "SCR2 - AODV-STOCK: bytes_per_pkt": {
+     "n": 10,
+     "mean": 23.1061,
+     "ci95": [
+      19.1081,
+      27.0683
+     ],
+     "sign_p": 0.00195
+    },
+    "SCR2 - AODV-STOCK: originations": {
+     "n": 10,
+     "mean": 822.8,
+     "ci95": [
+      558.6,
+      1100.6
+     ],
+     "sign_p": 0.00195
+    },
+    "SCR2 - AODV-STOCK: service_confirmations": {
+     "n": 10,
+     "mean": 38.6,
+     "ci95": [
+      34.0,
+      43.5
+     ],
+     "sign_p": 0.00195
+    },
+    "SCR2 - SCR: timely": {
+     "n": 10,
+     "mean": 0.2981,
+     "ci95": [
+      0.2745,
+      0.324
+     ],
+     "sign_p": 0.00195
+    },
+    "SCR2 - SCR: bytes_per_pkt": {
+     "n": 10,
+     "mean": 34.8699,
+     "ci95": [
+      31.2202,
+      37.9759
+     ],
+     "sign_p": 0.00195
+    },
+    "SCR2 - SCR: originations": {
+     "n": 10,
+     "mean": 2201.8,
+     "ci95": [
+      2010.2,
+      2353.8
+     ],
+     "sign_p": 0.00195
+    },
+    "SCR2 - SCR: service_confirmations": {
+     "n": 10,
+     "mean": 33.7,
+     "ci95": [
+      29.3,
+      38.5
+     ],
+     "sign_p": 0.00195
+    }
+   },
+   "absolute": {
+    "AODV-STOCK timely": 0.4693,
+    "AODV-STOCK bytes_per_pkt": 49.5344,
+    "AODV-STOCK originations": 2944.9,
+    "SCR timely": 0.0601,
+    "SCR bytes_per_pkt": 37.7706,
+    "SCR originations": 1565.9,
+    "SCR2 timely": 0.3582,
+    "SCR2 bytes_per_pkt": 72.6405,
+    "SCR2 originations": 3767.7,
+    "RREP-RESET timely": 0.6709,
+    "RREP-RESET bytes_per_pkt": 25.5996,
+    "RREP-RESET originations": 1933.3
+   }
+  },
+  "long/stagger=0": {
+   "paired": {
+    "SCR2 - AODV-STOCK: timely": {
+     "n": 10,
+     "mean": -0.0428,
+     "ci95": [
+      -0.086,
+      0.0027
+     ],
+     "sign_p": 0.75391
+    },
+    "SCR2 - AODV-STOCK: bytes_per_pkt": {
+     "n": 10,
+     "mean": 11.1829,
+     "ci95": [
+      7.1422,
+      14.854
+     ],
+     "sign_p": 0.00195
+    },
+    "SCR2 - AODV-STOCK: originations": {
+     "n": 10,
+     "mean": 230.7,
+     "ci95": [
+      -10.6,
+      449.2
+     ],
+     "sign_p": 0.34375
+    },
+    "SCR2 - AODV-STOCK: service_confirmations": {
+     "n": 10,
+     "mean": 30.5,
+     "ci95": [
+      27.7,
+      33.4
+     ],
+     "sign_p": 0.00195
+    },
+    "SCR2 - SCR: timely": {
+     "n": 10,
+     "mean": 0.2388,
+     "ci95": [
+      0.2195,
+      0.2592
+     ],
+     "sign_p": 0.00195
+    },
+    "SCR2 - SCR: bytes_per_pkt": {
+     "n": 10,
+     "mean": 25.2477,
+     "ci95": [
+      22.6404,
+      27.6529
+     ],
+     "sign_p": 0.00195
+    },
+    "SCR2 - SCR: originations": {
+     "n": 10,
+     "mean": 1640.5,
+     "ci95": [
+      1500.4,
+      1767.4
+     ],
+     "sign_p": 0.00195
+    },
+    "SCR2 - SCR: service_confirmations": {
+     "n": 10,
+     "mean": 25.3,
+     "ci95": [
+      21.9,
+      29.0
+     ],
+     "sign_p": 0.00195
+    }
+   },
+   "absolute": {
+    "AODV-STOCK timely": 0.3365,
+    "AODV-STOCK bytes_per_pkt": 46.8458,
+    "AODV-STOCK originations": 2802.2,
+    "SCR timely": 0.0549,
+    "SCR bytes_per_pkt": 32.7809,
+    "SCR originations": 1392.4,
+    "SCR2 timely": 0.2937,
+    "SCR2 bytes_per_pkt": 58.0286,
+    "SCR2 originations": 3032.9,
+    "RREP-RESET timely": 0.4874,
+    "RREP-RESET bytes_per_pkt": 27.5262,
+    "RREP-RESET originations": 2081.5
+   }
+  },
+  "repeated/stagger=0": {
+   "paired": {
+    "SCR2 - AODV-STOCK: timely": {
+     "n": 10,
+     "mean": -0.1036,
+     "ci95": [
+      -0.15,
+      -0.0611
+     ],
+     "sign_p": 0.00195
+    },
+    "SCR2 - AODV-STOCK: bytes_per_pkt": {
+     "n": 10,
+     "mean": 20.7516,
+     "ci95": [
+      15.4179,
+      26.3791
+     ],
+     "sign_p": 0.00195
+    },
+    "SCR2 - AODV-STOCK: originations": {
+     "n": 10,
+     "mean": 713.8,
+     "ci95": [
+      390.1,
+      1073.9
+     ],
+     "sign_p": 0.02148
+    },
+    "SCR2 - AODV-STOCK: service_confirmations": {
+     "n": 10,
+     "mean": 40.5,
+     "ci95": [
+      37.5,
+      43.2
+     ],
+     "sign_p": 0.00195
+    },
+    "SCR2 - SCR: timely": {
+     "n": 10,
+     "mean": 0.2964,
+     "ci95": [
+      0.2783,
+      0.3163
+     ],
+     "sign_p": 0.00195
+    },
+    "SCR2 - SCR: bytes_per_pkt": {
+     "n": 10,
+     "mean": 31.8353,
+     "ci95": [
+      28.5681,
+      34.3554
+     ],
+     "sign_p": 0.00195
+    },
+    "SCR2 - SCR: originations": {
+     "n": 10,
+     "mean": 2044.5,
+     "ci95": [
+      1873.5,
+      2177.4
+     ],
+     "sign_p": 0.00195
+    },
+    "SCR2 - SCR: service_confirmations": {
+     "n": 10,
+     "mean": 35.2,
+     "ci95": [
+      32.6,
+      38.0
+     ],
+     "sign_p": 0.00195
+    }
+   },
+   "absolute": {
+    "AODV-STOCK timely": 0.4601,
+    "AODV-STOCK bytes_per_pkt": 49.0301,
+    "AODV-STOCK originations": 2870.0,
+    "SCR timely": 0.06,
+    "SCR bytes_per_pkt": 37.9465,
+    "SCR originations": 1539.3,
+    "SCR2 timely": 0.3565,
+    "SCR2 bytes_per_pkt": 69.7817,
+    "SCR2 originations": 3583.8,
+    "RREP-RESET timely": 0.5955,
+    "RREP-RESET bytes_per_pkt": 30.9239,
+    "RREP-RESET originations": 2397.2
+   }
+  },
+  "single/stagger=0": {
+   "paired": {
+    "SCR2 - AODV-STOCK: timely": {
+     "n": 10,
+     "mean": -0.0858,
+     "ci95": [
+      -0.1163,
+      -0.0617
+     ],
+     "sign_p": 0.00195
+    },
+    "SCR2 - AODV-STOCK: bytes_per_pkt": {
+     "n": 10,
+     "mean": 19.1888,
+     "ci95": [
+      16.5375,
+      22.1871
+     ],
+     "sign_p": 0.00195
+    },
+    "SCR2 - AODV-STOCK: originations": {
+     "n": 10,
+     "mean": 561.1,
+     "ci95": [
+      382.6,
+      763.0
+     ],
+     "sign_p": 0.00195
+    },
+    "SCR2 - AODV-STOCK: service_confirmations": {
+     "n": 10,
+     "mean": 37.9,
+     "ci95": [
+      34.4,
+      41.1
+     ],
+     "sign_p": 0.00195
+    },
+    "SCR2 - SCR: timely": {
+     "n": 10,
+     "mean": 0.2888,
+     "ci95": [
+      0.2711,
+      0.3068
+     ],
+     "sign_p": 0.00195
+    },
+    "SCR2 - SCR: bytes_per_pkt": {
+     "n": 10,
+     "mean": 33.4292,
+     "ci95": [
+      31.2046,
+      35.6814
+     ],
+     "sign_p": 0.00195
+    },
+    "SCR2 - SCR: originations": {
+     "n": 10,
+     "mean": 2095.9,
+     "ci95": [
+      1966.8,
+      2220.7
+     ],
+     "sign_p": 0.00195
+    },
+    "SCR2 - SCR: service_confirmations": {
+     "n": 10,
+     "mean": 32.6,
+     "ci95": [
+      29.4,
+      35.7
+     ],
+     "sign_p": 0.00195
+    }
+   },
+   "absolute": {
+    "AODV-STOCK timely": 0.4337,
+    "AODV-STOCK bytes_per_pkt": 50.7126,
+    "AODV-STOCK originations": 3024.9,
+    "SCR timely": 0.0591,
+    "SCR bytes_per_pkt": 36.4722,
+    "SCR originations": 1490.1,
+    "SCR2 timely": 0.3479,
+    "SCR2 bytes_per_pkt": 69.9013,
+    "SCR2 originations": 3586.0,
+    "RREP-RESET timely": 0.6072,
+    "RREP-RESET bytes_per_pkt": 29.2367,
+    "RREP-RESET originations": 2261.0
+   }
+  }
+ },
+ "pooled": {
+  "ALL": {
+   "paired": {
+    "SCR2 - AODV-STOCK: timely": {
+     "n": 60,
+     "mean": -0.0811,
+     "ci95": [
+      -0.0995,
+      -0.0635
+     ],
+     "sign_p": 0.0
+    },
+    "SCR2 - AODV-STOCK: bytes_per_pkt": {
+     "n": 60,
+     "mean": 16.1726,
+     "ci95": [
+      13.932,
+      18.4266
+     ],
+     "sign_p": 0.0
+    },
+    "SCR2 - AODV-STOCK: originations": {
+     "n": 60,
+     "mean": 459.25,
+     "ci95": [
+      339.9833,
+      583.55
+     ],
+     "sign_p": 0.0
+    },
+    "SCR2 - AODV-STOCK: service_confirmations": {
+     "n": 60,
+     "mean": 35.75,
+     "ci95": [
+      34.0,
+      37.5
+     ],
+     "sign_p": 0.0
+    },
+    "SCR2 - SCR: timely": {
+     "n": 60,
+     "mean": 0.2907,
+     "ci95": [
+      0.28,
+      0.3016
+     ],
+     "sign_p": 0.0
+    },
+    "SCR2 - SCR: bytes_per_pkt": {
+     "n": 60,
+     "mean": 28.4701,
+     "ci95": [
+      26.6803,
+      30.261
+     ],
+     "sign_p": 0.0
+    },
+    "SCR2 - SCR: originations": {
+     "n": 60,
+     "mean": 1660.3167,
+     "ci95": [
+      1520.4667,
+      1799.7167
+     ],
+     "sign_p": 0.0
+    },
+    "SCR2 - SCR: service_confirmations": {
+     "n": 60,
+     "mean": 31.35,
+     "ci95": [
+      29.6667,
+      33.0833
+     ],
+     "sign_p": 0.0
+    }
+   },
+   "absolute": {
+    "AODV-STOCK timely": 0.4311,
+    "AODV-STOCK bytes_per_pkt": 49.4679,
+    "AODV-STOCK originations": 2535.2667,
+    "SCR timely": 0.0593,
+    "SCR bytes_per_pkt": 37.1704,
+    "SCR originations": 1334.2,
+    "SCR2 timely": 0.35,
+    "SCR2 bytes_per_pkt": 65.6404,
+    "SCR2 originations": 2994.5167,
+    "RREP-RESET timely": 0.5785,
+    "RREP-RESET bytes_per_pkt": 29.6563,
+    "RREP-RESET originations": 1926.4667
+   }
+  }
+ }
+}

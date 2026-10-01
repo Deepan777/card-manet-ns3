@@ -1,0 +1,22 @@
+{
+  "run_id": "c1_cold_AODVFB_s204_0f344ba2",
+  "campaign": "c1_outage",
+  "argv": [
+    "D:/VIT Vellore Research one/Astra Adhocnetworks/vendor/ns-3-dev-ns-3.46.1/build/scratch/scr-c1-outage/ns3.46.1-scr-c1-outage-default.exe",
+    "--algorithm=AODV-FB",
+    "--fault=cold",
+    "--coldStagger=0",
+    "--rngRun=204",
+    "--rngSeed=20260905",
+    "--outPrefix=out"
+  ],
+  "returncode": 0,
+  "elapsed_s": 1114.638,
+  "completed_utc": "2026-09-11T05:44:17.627905+00:00",
+  "outputs": {
+    "out_packet_events.csv": "c864723d3c39b60b231459d01e3371bc399eb9f124e19f6bd90d95cd13c83ff6",
+    "out_summary.csv": "8f83be21b8cf0abad2e62acd62f828575efc3e1923c559f655fa5a2adf6253ae",
+    "stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stdout.txt": "b2f3a5b2a9d9c13b126ea8ea4b5a1bedc7a112267ff343e7849237212e09e089"
+  }
+}

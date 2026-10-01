@@ -1,0 +1,25 @@
+{
+  "run_id": "c_PERSISTENTBACKOFF_s228_17af3d3c",
+  "campaign": "stage8_campaign",
+  "argv": [
+    "D:/VIT Vellore Research one/Astra Adhocnetworks/vendor/ns-3-dev-ns-3.46.1/build/scratch/scr-manet/ns3.46.1-scr-manet-default.exe",
+    "--algorithm=PERSISTENT-BACKOFF",
+    "--rngRun=228",
+    "--rngSeed=20260905",
+    "--speed=5.0",
+    "--ratePps=40.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out"
+  ],
+  "returncode": 0,
+  "elapsed_s": 320.08,
+  "completed_utc": "2026-09-21T19:12:29.621339+00:00",
+  "outputs": {
+    "out_packet_events.csv": "2844fa32e6b85f0e68c821c356a0f118079e3f4bd84098e9e504d2f954988455",
+    "out_summary.csv": "d6f2cf2f5fbbe07e3e73cad12794d4365b2b706e773bfe07b2a231a018af89d1",
+    "stderr.txt": "5d6b8484e44d0704035db0c204dc252e9ea5ae35921d273f7f3bc281feaf5cfb",
+    "stdout.txt": "696a185610a47f4f277b798c1a67a26092bc962c645509fc92285e5214641873"
+  }
+}

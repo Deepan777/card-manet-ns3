@@ -1,0 +1,22 @@
+{
+  "run_id": "c1_cold_staggered_PERSISTENTBACKOFF_s201_c4564080",
+  "campaign": "c1_outage",
+  "argv": [
+    "D:/VIT Vellore Research one/Astra Adhocnetworks/vendor/ns-3-dev-ns-3.46.1/build/scratch/scr-c1-outage/ns3.46.1-scr-c1-outage-default.exe",
+    "--algorithm=PERSISTENT-BACKOFF",
+    "--fault=cold",
+    "--coldStagger=1",
+    "--rngRun=201",
+    "--rngSeed=20260905",
+    "--outPrefix=out"
+  ],
+  "returncode": 0,
+  "elapsed_s": 160.283,
+  "completed_utc": "2026-09-17T22:21:01.707042+00:00",
+  "outputs": {
+    "out_packet_events.csv": "411456c143834f616b9c816a91929aa833a415fffcb349077a7914cd4c77a397",
+    "out_summary.csv": "8e148a08d25b92d6c3712663b2b2a90389d9db1209a95064872a55aa361a97ae",
+    "stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stdout.txt": "32895918b2e87bdeaf792c088d1d07e2e0bd98e1c8c2f52eaf47887ee311e879"
+  }
+}

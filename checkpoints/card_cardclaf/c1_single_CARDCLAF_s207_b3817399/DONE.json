@@ -1,0 +1,23 @@
+{
+  "run_id": "c1_single_CARDCLAF_s207_b3817399",
+  "campaign": "card_cardclaf",
+  "argv": [
+    "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-cardclaf\\build\\scratch\\scr-c1-outage\\ns3.46.1-scr-c1-outage-default.exe",
+    "--algorithm=CARD-CLAF",
+    "--fault=single",
+    "--coldStagger=0",
+    "--rngRun=207",
+    "--rngSeed=20260905",
+    "--outPrefix=out"
+  ],
+  "returncode": 0,
+  "elapsed_s": 932.643,
+  "completed_utc": "2026-09-28T03:58:54.865410+00:00",
+  "outputs": {
+    "out_card_breaks.csv": "c7360e31b8702f331f53c676762035d324c0c88c4d93027a4f2d9ba054173c0f",
+    "out_packet_events.csv": "55a6fcf89ee064d6da66f48a434e6ce8bbf10e904e730c28d2e346b7519f2cbb",
+    "out_summary.csv": "f50fa601a4a2704485279a6d52ee554fa760fc92b27a95a1425b10dd84983f87",
+    "stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stdout.txt": "e8e9d0e95aaecd88936ab91da57b01c1ab49d40c70e916bfeeec03e8da4cef7b"
+  }
+}

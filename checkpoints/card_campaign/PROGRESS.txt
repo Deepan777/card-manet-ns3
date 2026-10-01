@@ -1,0 +1,9 @@
+campaign : card_campaign
+progress : [########################################] 100.0%
+runs     : 2100 done / 2100 total (0 failed)
+mean run : None s  (jobs=8)
+ETA      : unknown
+updated  : 2026-10-01T06:16:24.004105+00:00
+
+in flight : 0
+heartbeat : 2026-10-01T06:16:24.005372+00:00

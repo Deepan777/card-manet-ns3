@@ -1,0 +1,22 @@
+{
+  "run_id": "c1_single_TAAODV_s208_80781617",
+  "campaign": "card_taaodv",
+  "argv": [
+    "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-taaodv\\build\\scratch\\scr-c1-outage\\ns3.46.1-scr-c1-outage-default.exe",
+    "--algorithm=TAAODV",
+    "--fault=single",
+    "--coldStagger=0",
+    "--rngRun=208",
+    "--rngSeed=20260905",
+    "--outPrefix=out"
+  ],
+  "returncode": 0,
+  "elapsed_s": 62.034,
+  "completed_utc": "2026-09-26T20:11:28.297848+00:00",
+  "outputs": {
+    "out_packet_events.csv": "1567021f36e7825cf134ce6f0420f122419ca9ecbffdfed19f8166f61f4fb391",
+    "out_summary.csv": "fce5dff6fd7777eea53b3264a8e437972864cd9ca58d2fb4b011a6fb26ea09d6",
+    "stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stdout.txt": "1d162e4ff5960d45bdd6103153f7f87057415235e518e0fd7809de272b41fe99"
+  }
+}

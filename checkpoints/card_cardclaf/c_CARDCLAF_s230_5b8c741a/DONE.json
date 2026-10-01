@@ -1,0 +1,26 @@
+{
+  "run_id": "c_CARDCLAF_s230_5b8c741a",
+  "campaign": "card_cardclaf",
+  "argv": [
+    "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-cardclaf\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe",
+    "--algorithm=CARD-CLAF",
+    "--rngRun=230",
+    "--rngSeed=20260905",
+    "--speed=5.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out"
+  ],
+  "returncode": 0,
+  "elapsed_s": 724.706,
+  "completed_utc": "2026-09-28T16:45:46.913289+00:00",
+  "outputs": {
+    "out_card_breaks.csv": "d21ff5f89cfec3666844e85a30286ef7529b7eaadc9704851b1e77eead31edfe",
+    "out_packet_events.csv": "dd28c55fab046fc6be3d4c1519ba4dbc9c00c019251cc7c4729cfa98a5a28724",
+    "out_summary.csv": "9a03204035ab71a4807becb38c2f0df7e76050de88f712b2fb8defcff81a46b6",
+    "stderr.txt": "5d6b8484e44d0704035db0c204dc252e9ea5ae35921d273f7f3bc281feaf5cfb",
+    "stdout.txt": "543032cc805f60c3a93db03d1e9b8d2df60069b4c741a375f737a9a07027d8cf"
+  }
+}

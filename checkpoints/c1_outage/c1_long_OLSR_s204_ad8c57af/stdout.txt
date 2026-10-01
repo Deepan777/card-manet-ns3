@@ -1,0 +1,1 @@
+algorithm=OLSR fault=long generated=43132 received=17501 timely_pdr=0.382338 accepted=875 confirms=0 source_rreq=0 relayed=0 uncharged=0 ctrl_bytes=0

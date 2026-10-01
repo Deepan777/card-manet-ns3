@@ -1,0 +1,25 @@
+{
+  "run_id": "c_ONEBLOCK_s230_3013ec95",
+  "campaign": "stage9_ablation_sweep",
+  "argv": [
+    "D:/VIT Vellore Research one/Astra Adhocnetworks/vendor/ns-3-dev-ns-3.46.1/build/scratch/scr-manet/ns3.46.1-scr-manet-default.exe",
+    "--algorithm=ONE-BLOCK",
+    "--rngRun=230",
+    "--rngSeed=20260905",
+    "--speed=1.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out"
+  ],
+  "returncode": 0,
+  "elapsed_s": 600.493,
+  "completed_utc": "2026-09-23T08:40:09.247268+00:00",
+  "outputs": {
+    "out_packet_events.csv": "f9627471f165920803d42416c693bc602f853ca67f2778dbead3441b5e675336",
+    "out_summary.csv": "e0710709e1c5726ec33e93fc28388f2f04daef477ea17d77aa0b2e8b410bb0a5",
+    "stderr.txt": "5d6b8484e44d0704035db0c204dc252e9ea5ae35921d273f7f3bc281feaf5cfb",
+    "stdout.txt": "2daa6ae0384d7a66c29deda543b5fcb55ad88a6c7195bbe16639abf9b2054612"
+  }
+}

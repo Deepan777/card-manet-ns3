@@ -1,0 +1,26 @@
+{
+  "run_id": "c_CARDNOREACH_s225_fa070c03",
+  "campaign": "card_campaign",
+  "argv": [
+    "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe",
+    "--algorithm=CARD-NO-REACH",
+    "--rngRun=225",
+    "--rngSeed=20260905",
+    "--speed=5.0",
+    "--ratePps=5.0",
+    "--numFlows=8",
+    "--freshnessS=3.000000",
+    "--packetEvents=1",
+    "--outPrefix=out"
+  ],
+  "returncode": 0,
+  "elapsed_s": 203.076,
+  "completed_utc": "2026-09-28T20:54:54.305503+00:00",
+  "outputs": {
+    "out_card_breaks.csv": "a78be40fe7036ded6a902f34e106254e686f1ed72fb400cfb16f1e72a4d106de",
+    "out_packet_events.csv": "e81086d9cc1b142fc32bdb1cfbbd3debc1b77dbfa7db834f7973c98ec31b44b9",
+    "out_summary.csv": "de06847a02ea920ae5455b80bdd4b9d4ffa99c429ad8b2b09a2ddaaa703ce96f",
+    "stderr.txt": "5d6b8484e44d0704035db0c204dc252e9ea5ae35921d273f7f3bc281feaf5cfb",
+    "stdout.txt": "d7f6d9b5bd0b489ddb1a9290db232abb4b710b30202822a689c842b823ea3871"
+  }
+}

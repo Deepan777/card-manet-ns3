@@ -1,0 +1,22 @@
+{
+  "run_id": "c1_single_OLSR_s206_058cc3c4",
+  "campaign": "c1_outage",
+  "argv": [
+    "D:/VIT Vellore Research one/Astra Adhocnetworks/vendor/ns-3-dev-ns-3.46.1/build/scratch/scr-c1-outage/ns3.46.1-scr-c1-outage-default.exe",
+    "--algorithm=OLSR",
+    "--fault=single",
+    "--coldStagger=0",
+    "--rngRun=206",
+    "--rngSeed=20260905",
+    "--outPrefix=out"
+  ],
+  "returncode": 0,
+  "elapsed_s": 1114.365,
+  "completed_utc": "2026-09-13T19:54:42.281610+00:00",
+  "outputs": {
+    "out_packet_events.csv": "143cdfa020624742482f357dd722ffe4b6316f6deb4a330247c0d2536f78b1e1",
+    "out_summary.csv": "13e03e837b8394969e07ee5248ff830f09369bad848c05a678d8430883c108b1",
+    "stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stdout.txt": "7cdb24682f0e1bd6dc5b814d3b9c9736d3252ae7854301620e79fe110e9078c5"
+  }
+}

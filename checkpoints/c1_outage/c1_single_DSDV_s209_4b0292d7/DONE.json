@@ -1,0 +1,22 @@
+{
+  "run_id": "c1_single_DSDV_s209_4b0292d7",
+  "campaign": "c1_outage",
+  "argv": [
+    "D:/VIT Vellore Research one/Astra Adhocnetworks/vendor/ns-3-dev-ns-3.46.1/build/scratch/scr-c1-outage/ns3.46.1-scr-c1-outage-default.exe",
+    "--algorithm=DSDV",
+    "--fault=single",
+    "--coldStagger=0",
+    "--rngRun=209",
+    "--rngSeed=20260905",
+    "--outPrefix=out"
+  ],
+  "returncode": 0,
+  "elapsed_s": 540.145,
+  "completed_utc": "2026-09-13T19:05:35.565350+00:00",
+  "outputs": {
+    "out_packet_events.csv": "8f27b155dd6a6772a9ca1c883ce1273c66952f15939e3d897ce5eae34b5e9965",
+    "out_summary.csv": "d50bebced046dea71c883ecb390550fa6b500b4cd849a6a2d66b1e9973f5cfb2",
+    "stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stdout.txt": "fa4377cb3b7bf5a875a10f9a22531abe81024453ed86ac227167417165577d50"
+  }
+}

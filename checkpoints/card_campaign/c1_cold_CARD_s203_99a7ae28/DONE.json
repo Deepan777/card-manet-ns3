@@ -1,0 +1,23 @@
+{
+  "run_id": "c1_cold_CARD_s203_99a7ae28",
+  "campaign": "card_campaign",
+  "argv": [
+    "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-ns-3.46.1\\build\\scratch\\scr-c1-outage\\ns3.46.1-scr-c1-outage-default.exe",
+    "--algorithm=CARD",
+    "--fault=cold",
+    "--coldStagger=0",
+    "--rngRun=203",
+    "--rngSeed=20260905",
+    "--outPrefix=out"
+  ],
+  "returncode": 0,
+  "elapsed_s": 691.276,
+  "completed_utc": "2026-09-25T22:53:21.861163+00:00",
+  "outputs": {
+    "out_card_breaks.csv": "81e6700c40167bcd43dfc3e13e1993927aebbbbfc918d37461ea9574eb462b45",
+    "out_packet_events.csv": "7b131a06b90c1b6beb8c2e0ff5e041e844c58be91ec15256f9b732404404c35d",
+    "out_summary.csv": "e64497534ea383f8472363b2a08cd62088cbd3b7cbaef4242a16bcd439cac9ba",
+    "stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stdout.txt": "ac31fc35e6e5ab904f6dfe0516ec987cddcac558cd5e274a6e8365a2dde4991d"
+  }
+}

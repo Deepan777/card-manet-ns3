@@ -1,0 +1,1 @@
+algorithm=DSDV scr_family=0 generated=86256 reports_accepted=427 reports_rejected=13 confirmations=0 source_rreq=0 admitted=0 denied=0 uncharged=0 zero_delay_clamped=0 exo_hash=7400409629805336911 transport_error=0

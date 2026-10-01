@@ -1,0 +1,9 @@
+campaign : card_baselines
+progress : [########################################] 100.0%
+runs     : 420 done / 420 total (0 failed)
+mean run : None s  (jobs=4)
+ETA      : unknown
+updated  : 2026-10-01T06:15:34.597006+00:00
+
+in flight : 0
+heartbeat : 2026-10-01T06:15:34.598617+00:00

@@ -1,0 +1,22 @@
+{
+  "run_id": "c1_long_TIMEBUCKET_s201_31cc15d5",
+  "campaign": "c1_outage",
+  "argv": [
+    "D:/VIT Vellore Research one/Astra Adhocnetworks/vendor/ns-3-dev-ns-3.46.1/build/scratch/scr-c1-outage/ns3.46.1-scr-c1-outage-default.exe",
+    "--algorithm=TIME-BUCKET",
+    "--fault=long",
+    "--coldStagger=0",
+    "--rngRun=201",
+    "--rngSeed=20260905",
+    "--outPrefix=out"
+  ],
+  "returncode": 0,
+  "elapsed_s": 431.278,
+  "completed_utc": "2026-09-18T02:07:21.636141+00:00",
+  "outputs": {
+    "out_packet_events.csv": "7290fcda2dc27b57dc302f380e68432219c9c4cb575d37d8280be45e905e52c3",
+    "out_summary.csv": "a5b62441a07443034053e8e9b7597064947ff732678db951ce021f74626692f9",
+    "stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stdout.txt": "54e7068069433582786ad282e61659b5b134fa008d595b0d361627ddcbdfa451"
+  }
+}

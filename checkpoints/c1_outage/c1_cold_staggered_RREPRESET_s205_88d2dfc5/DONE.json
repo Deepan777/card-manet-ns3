@@ -1,0 +1,22 @@
+{
+  "run_id": "c1_cold_staggered_RREPRESET_s205_88d2dfc5",
+  "campaign": "c1_outage",
+  "argv": [
+    "D:/VIT Vellore Research one/Astra Adhocnetworks/vendor/ns-3-dev-ns-3.46.1/build/scratch/scr-c1-outage/ns3.46.1-scr-c1-outage-default.exe",
+    "--algorithm=RREP-RESET",
+    "--fault=cold",
+    "--coldStagger=1",
+    "--rngRun=205",
+    "--rngSeed=20260905",
+    "--outPrefix=out"
+  ],
+  "returncode": 0,
+  "elapsed_s": 353.5,
+  "completed_utc": "2026-09-17T22:41:56.573890+00:00",
+  "outputs": {
+    "out_packet_events.csv": "09447d0aabb81b139fc2fa2c4107e1363648d911727f8d1a1fbcad2e593bb77a",
+    "out_summary.csv": "3d26632cf70b621d1479497703793c12ed581ede15de381f428d55a5cbdf524d",
+    "stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stdout.txt": "2bb25b6b02bd87d04013fd1f1d623d755aa711ca19ef022ffcf9cfc39b278f06"
+  }
+}

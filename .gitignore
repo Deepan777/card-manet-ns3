@@ -1,0 +1,6 @@
+vendor/
+build/
+logs/
+__pycache__/
+*.pyc
+paper/scripts/out/mplcache/

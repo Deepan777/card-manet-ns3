@@ -1,0 +1,18 @@
+{
+ "mobility": {
+  "runs": 120,
+  "breaks": 3047952,
+  "trans_departed": 930162,
+  "trans_inrange": 1036234,
+  "topo_departed": 759850,
+  "topo_inrange": 321637,
+  "unknown_departed": 61,
+  "unknown_inrange": 8,
+  "unknown_share": 2.2638151781917827e-05,
+  "precision_topology": 0.7025974422253805,
+  "recall_topology": 0.449612192102778,
+  "precision_transient": 0.5269711695914759,
+  "accuracy_classified": 0.5892890245458897,
+  "departure_share": 0.5544946245872638
+ }
+}

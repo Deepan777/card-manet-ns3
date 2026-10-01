@@ -1,0 +1,25 @@
+{
+  "run_id": "c_TAAODV_s202_1d368a3d",
+  "campaign": "card_taaodv",
+  "argv": [
+    "D:\\VIT Vellore Research one\\Astra Adhocnetworks\\vendor\\ns-3-dev-taaodv\\build\\scratch\\scr-manet\\ns3.46.1-scr-manet-default.exe",
+    "--algorithm=TAAODV",
+    "--rngRun=202",
+    "--rngSeed=20260905",
+    "--speed=5.0",
+    "--ratePps=20.0",
+    "--numFlows=8",
+    "--freshnessS=2.000000",
+    "--packetEvents=1",
+    "--outPrefix=out"
+  ],
+  "returncode": 0,
+  "elapsed_s": 440.828,
+  "completed_utc": "2026-09-27T02:32:19.391295+00:00",
+  "outputs": {
+    "out_packet_events.csv": "a23431f91597b35725ea52ffdb00dfdbfc2d84d817c1aba15c18750beaca697f",
+    "out_summary.csv": "73e95a90fab41533fd6d1dd802e0e32fdc8e1001d88f3ac7c1a23fde794c0d98",
+    "stderr.txt": "5d6b8484e44d0704035db0c204dc252e9ea5ae35921d273f7f3bc281feaf5cfb",
+    "stdout.txt": "f7d3637a964836de0e112f3a3cb68020e636a2b328fbb3d7c7c2d7a7c3879ab4"
+  }
+}

@@ -1,0 +1,1 @@
+algorithm=OLSR fault=healthy generated=43132 received=26467 timely_pdr=0.569276 accepted=1455 confirms=0 source_rreq=0 relayed=0 uncharged=0 ctrl_bytes=0

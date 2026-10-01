@@ -1,0 +1,25 @@
+{
+  "run_id": "c_TIMEBUCKET_s207_9b9f97c5",
+  "campaign": "stage8_campaign",
+  "argv": [
+    "D:/VIT Vellore Research one/Astra Adhocnetworks/vendor/ns-3-dev-ns-3.46.1/build/scratch/scr-manet/ns3.46.1-scr-manet-default.exe",
+    "--algorithm=TIME-BUCKET",
+    "--rngRun=207",
+    "--rngSeed=20260905",
+    "--speed=5.0",
+    "--ratePps=5.0",
+    "--numFlows=8",
+    "--freshnessS=3.000000",
+    "--packetEvents=1",
+    "--outPrefix=out"
+  ],
+  "returncode": 0,
+  "elapsed_s": 181.08,
+  "completed_utc": "2026-09-22T00:13:42.345339+00:00",
+  "outputs": {
+    "out_packet_events.csv": "c0f7d1f51699a4c047ef4e802004eaa04c1e7bf5877782c9c16f443863150e39",
+    "out_summary.csv": "77b256989a43cb3590fa18a78f57f8abb4cb96eb6cd47001b313136589c5c4ef",
+    "stderr.txt": "5d6b8484e44d0704035db0c204dc252e9ea5ae35921d273f7f3bc281feaf5cfb",
+    "stdout.txt": "1387e1a7567f3be5d72c2b4ac83a7bdf233e3605eba44fc30e6979aea3fa072a"
+  }
+}

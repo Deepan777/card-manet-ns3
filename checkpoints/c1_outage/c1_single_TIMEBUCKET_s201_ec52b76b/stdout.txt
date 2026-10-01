@@ -1,0 +1,1 @@
+algorithm=TIME-BUCKET scr_enabled=1 B=4 rho=0.2 bucket_refill=0.5 Gmax=4 lambda=2 ttl_max=35 node_traversal_ms=40 net_traversal_ms=2800 rreq_rate_limit=10 rreq_retries=2 rreq_cap_legacy_equality=0 fork_rev=5 fault=single generated=43132 received=20279 timely_pdr=0.243508 accepted=244 confirms=24 source_rreq=1649 relayed=31899 uncharged=0 ctrl_bytes=1349716

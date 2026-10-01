@@ -1,0 +1,9 @@
+campaign : c4_scaling
+progress : [########################################] 100.0%
+runs     : 960 done / 960 total (0 failed)
+mean run : None s  (jobs=3)
+ETA      : unknown
+updated  : 2026-10-01T06:14:15.247022+00:00
+
+in flight : 0
+heartbeat : 2026-10-01T06:14:15.248170+00:00

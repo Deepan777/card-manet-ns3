@@ -1,0 +1,1 @@
+algorithm=OLSR fault=cold generated=28800 received=14273 timely_pdr=0.357292 accepted=1148 confirms=0 source_rreq=0 relayed=0 uncharged=0 ctrl_bytes=0

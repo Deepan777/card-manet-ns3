@@ -1,0 +1,1 @@
+algorithm=SCR2 scr_enabled=1 B=4 rho=0.2 bucket_refill=0.5 Gmax=4 lambda=2 ttl_max=35 node_traversal_ms=40 net_traversal_ms=2800 rreq_rate_limit=10 rreq_retries=2 rreq_cap_legacy_equality=0 fork_rev=5 fault=healthy generated=43132 received=26067 timely_pdr=0.470416 accepted=470 confirms=41 source_rreq=2987 relayed=63459 uncharged=0 ctrl_bytes=2507684

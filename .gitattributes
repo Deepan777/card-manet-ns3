@@ -1,0 +1,7 @@
+* text=auto
+*.sh text eol=lf
+# run records keep their exact bytes, so the SHA-256 values in DONE.json stay verifiable
+checkpoints/** -text
+raw_results/** -text
+analysis_out/** -text
+paper/scripts/out/** -text
