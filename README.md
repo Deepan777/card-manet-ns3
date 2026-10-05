@@ -3,11 +3,11 @@
 This repository holds the simulation code, campaign definitions, per-run summary records and analysis scripts for
 the manuscript
 
-> P. Deepanramkumar and A. Helen Sharmila, *Cause-conditioned route repair in mobile ad hoc networks: conveying
+> A. Helen Sharmila and P. Deepanramkumar, *Cause-conditioned route repair in mobile ad hoc networks: conveying
 > link-failure inference to the discovery decision*. Manuscript prepared for *Ad Hoc Networks* (Elsevier).
 
 Authors: School of Computer Science and Engineering, Vellore Institute of Technology, Vellore, Tamil Nadu, India.
-Corresponding author: A. Helen Sharmila (helensharmila.a@vit.ac.in).
+Corresponding author: P. Deepanramkumar (deepanramkumar.p@vit.ac.in).
 
 ## Contents
 
